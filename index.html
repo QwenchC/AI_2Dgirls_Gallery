@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="AI 二次元拟人形象离线展览，14 位角色、三种体型、可溯源资料与 AIGC 创作指引。">
+  <meta name="color-scheme" content="light">
+  <title>AI MUSE · AI 拟人创作图鉴</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+  <script defer src="data/gallery-data.js"></script>
+  <script defer src="assets/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#gallery">跳转到角色图鉴</a>
+  <header class="site-header">
+    <a class="brand" href="#"><span class="brand-symbol" aria-hidden="true">✳</span><strong>AI MUSE</strong><span class="brand-note">拟人创作图鉴</span></a>
+    <nav aria-label="主导航"><a href="#gallery">角色图鉴</a><a href="#studio">创作工坊</a><a href="#about">关于企划</a></nav>
+    <span class="offline-label"><i></i> 离线典藏 · VOL. 01</span>
+  </header>
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy"><div class="eyebrow">THE AI PERSONIFICATION ARCHIVE</div><h1 id="hero-title">让灵感，<br>有个<span>模样。</span><svg viewBox="0 0 190 18" aria-hidden="true"><path d="M3 12 Q90 -3 186 10 M20 16 Q99 4 166 14"/></svg></h1><p>当 AI 遇见二次元，故事就有了新的主角。<br>收藏形象，探索设定，开启你的下一次创作。</p><a class="button primary" href="#gallery">走进角色图鉴 <span aria-hidden="true">↗</span></a><div class="hero-stats"><div><b>14</b><span>个灵感角色</span></div><div><b>03</b><span>种体型演绎</span></div><div><b>42</b><span>张参考设定图</span></div></div></div>
+      <div class="hero-art"><div class="art-topline"><span><i></i> 本期展签</span><span>CHARACTER / 003</span></div><button id="hero-open" class="hero-image" aria-label="打开 DeepSeek 角色资料"><img src="assets/previews/deepseek-standard.webp" alt="DeepSeek 蓝白配色标准版多视图参考" width="900" height="675"></button><div class="hero-caption"><div><span class="eyebrow">DEEPSEEK</span><h2>深蓝海里的求索者</h2></div><button id="hero-detail" class="round-button" aria-label="查看 DeepSeek 详细资料">↗</button></div><span class="art-stamp">REFERENCE<br>COLLECTION</span></div>
+    </section>
+    <div class="editor-note"><span class="tiny-star" aria-hidden="true">✧</span><p>源于中文社区的共同想象，延续每一份创作灵感。<span>社区资料与本项目二创设定分别标注。</span></p><a href="#about">来源与致谢 ↗</a></div>
+    <section id="gallery" class="gallery-section section-anchor" aria-labelledby="gallery-title">
+      <div class="section-heading"><div><div class="eyebrow">01 / THE COLLECTION</div><h2 id="gallery-title">遇见你的创作搭档<span>角色图鉴</span></h2></div><span class="section-aside">同一个灵魂，三种模样。</span></div>
+      <div class="gallery-toolbar"><div id="variant-switch" class="segmented" role="group" aria-label="选择体型"><button class="active" data-variant="standard" aria-pressed="true">标准版</button><button data-variant="medium" aria-pressed="false">中间体型版</button><button data-variant="chibi" aria-pressed="false">Q 版</button></div><label class="search-field"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="寻找角色、配色或关键词…" aria-label="搜索角色、配色或关键词" autocomplete="off"><kbd>/</kbd></label></div>
+      <div class="gallery-meta"><p id="result-count" aria-live="polite">正在整理图鉴…</p><span>点击卡片，展开角色的另一面 ↗</span></div>
+      <div id="character-grid" class="character-grid"></div><div id="empty-state" hidden class="empty-state"><h3>还没有找到这个角色</h3><p>试试角色名称、蓝白、星芒或哥特。</p><button class="button" id="clear-search">清除搜索</button></div>
+      <noscript><p>交互图鉴需要启用 JavaScript。也可直接浏览 <a href="docs/characters/">角色文字资料目录</a> 和原始图片目录。</p></noscript>
+    </section>
+    <section id="studio" class="studio-section section-anchor" aria-labelledby="studio-title">
+      <div class="section-heading"><div><div class="eyebrow">02 / THE CREATIVE STUDIO</div><h2 id="studio-title">从参考，到你的作品<span>创作工坊</span></h2></div><a href="docs/creation-guide.md" class="text-link" target="_blank">阅读完整创作指南 ↗</a></div>
+      <div class="studio-intro"><div><span class="number-label">REFERENCE WORKFLOW</span><h3>让角色，走进下一个镜头。</h3><p id="workflow-summary">MiniMax H3 参考生成工作流 · 通用创作指引</p></div><div class="guide-links"><a href="docs/h3-workflow.md" target="_blank">H3 工作流参考 ↗</a><a href="docs/prompt-skill-guide.md" target="_blank">提示词 Skill 指引 ↗</a><a href="skills/ai-character-prompt/SKILL.md" target="_blank">仓库内创作 Skill ↗</a></div></div>
+      <ol id="workflow-steps" class="workflow-steps"></ol>
+      <details class="workflow-details"><summary>展开通用参数指引与使用边界 <span>＋</span></summary><div id="workflow-settings"></div></details>
+      <div class="prompt-lab"><div class="prompt-controls"><span class="number-label">PROMPT NOTEBOOK</span><h3>先写一张创作便笺</h3><p>选择角色与镜头，生成可交给提示词 Skill 的创作简报。不会自动提交生成任务。</p><div class="form-pair"><label>主角<select id="prompt-character"></select></label><label>参考体型<select id="prompt-variant"><option value="standard">标准版</option><option value="medium">中间体型版</option><option value="chibi">Q 版</option></select></label></div><label>场景<input id="prompt-scene" value="午后安静的图书馆，阳光穿过窗户" maxlength="200"></label><label>动作与情绪<input id="prompt-action" value="轻轻合上书本，看向镜头，露出自然的微笑" maxlength="200"></label><label>镜头<select id="prompt-camera"><option>中景，缓慢小幅推近</option><option>全身景，平视，缓慢横移</option><option>面部近景，浅景深，固定镜头</option></select></label><button id="generate-prompt" class="button primary">生成创作简报 <span>↗</span></button></div><div class="prompt-output"><div class="output-heading"><span>YOUR NEXT SCENE</span><span>可编辑 · 离线生成</span></div><label for="prompt-text" class="sr-only">生成的创作简报</label><textarea id="prompt-text" spellcheck="false"></textarea><div class="output-actions"><button id="copy-prompt" class="button">复制简报</button><button id="download-prompt" class="text-link">下载 .txt ↓</button></div><p class="output-footnote">这是一份中文创作简报。H3 使用前，请由 Skill 转写为英文六段式 Ref2VA 提示词；参考图编号须与实际上传顺序一致。</p></div></div>
+    </section>
+    <section id="about" class="about-section section-anchor" aria-labelledby="about-title"><div><div class="eyebrow">03 / MADE OF SHARED IMAGINATION</div><h2 id="about-title">灵感来自彼此，<br>感谢每一位创作者。</h2><p>特别感谢 <strong>Creeper-北极之光</strong> 提供初始形象参考图。工作区中的图片由项目维护者使用 GPT 参考其提供的图片生成。</p><p>其参考图是否进一步源于其他创作者，尚未完成考证。页面列出的社区作者与作品属于调研线索，不代表已确认当前图片的完整创作或授权链。</p></div><div class="about-notes"><article><span>01</span><div><h3>有出处，也有留白</h3><p>资料区分社区内容、本图视觉观察和项目二创设定。角色性格与关系不作为官方设定；体型不代表年龄。</p></div></article><article><span>02</span><div><h3>侵删与署名补充</h3><p>如涉及侵权，请联系项目维护者，我们会核实并及时处理或删除。为这些形象做出贡献的创作者，也欢迎通过仓库 Issue 或联系维护者，提供作品链接，以便添加名字与贡献说明。</p></div></article><article><span>03</span><div><h3>让创作接着发生</h3><p>本项目用于交流、展览与创作参考。致谢和“侵删”不替代授权；使用前请核对对应素材及上游作品的具体条款。</p></div></article><a href="docs/sources.md" target="_blank" class="text-link">查阅研究来源与证据范围 ↗</a></div></section>
+  </main>
+  <footer><a class="brand" href="#"><span class="brand-symbol" aria-hidden="true">✳</span><strong>AI MUSE</strong></a><p>一份持续生长的 AI 拟人创作档案。<span>OFFLINE EDITION · 2026.10</span></p><a href="README.md" target="_blank">项目说明 ↗</a></footer>
+  <dialog id="character-dialog" aria-labelledby="dialog-title"><button id="close-dialog" class="close-dialog" aria-label="关闭角色资料">✕</button><div class="dialog-layout"><div class="dialog-visual"><img id="detail-image" alt=""><div id="detail-variants" class="segmented" role="group" aria-label="资料卡体型"></div><a id="original-link" target="_blank" class="button">查看原始设定图 ↗</a><a id="download-image" download class="text-link">下载原图 ↓</a><p>本图由维护者使用 GPT 参考初始图片生成。<br>三种体型均不定义角色年龄。</p></div><div class="dialog-info"><div id="dialog-eyebrow" class="eyebrow"></div><h2 id="dialog-title"></h2><p id="dialog-subtitle"></p><div id="detail-tabs" class="detail-tabs" role="tablist" aria-label="资料卡内容"><button id="tab-profile" class="active" role="tab" data-tab="profile" aria-selected="true" aria-controls="detail-content">角色档案</button><button id="tab-creation" role="tab" data-tab="creation" aria-selected="false" tabindex="-1" aria-controls="detail-content">创作提示</button><button id="tab-sources" role="tab" data-tab="sources" aria-selected="false" tabindex="-1" aria-controls="detail-content">来源与说明</button></div><div id="detail-content" role="tabpanel" tabindex="0" aria-labelledby="tab-profile"></div><div class="dialog-actions"><button id="use-character" class="button primary">用这个角色创作 ↗</button><a id="character-file" class="text-link" target="_blank">文字资料 ↗</a></div></div></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

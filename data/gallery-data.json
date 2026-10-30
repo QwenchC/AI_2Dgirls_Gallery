@@ -1,0 +1,1623 @@
+{
+  "updated": "2026-10-30",
+  "characters": [
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "aliases": [
+        "GPT",
+        "GPT 娘",
+        "白龙娘",
+        "小龙娘"
+      ],
+      "communitySummary": "本次查到的中文社区分支以白龙娘为识别点。ZipZipPipe 的《大AI和小AI们》将 GPT 列入九位拟人角色；这个刀子真甜随后发布小龙娘进入 DeepSeek 家庭的日常短片，并在简介标注形象来源。中文评论文章还把她演绎为能主持局面的前辈。这些是具体作者的创作与读者解读，不能推为 ChatGPT 官方人设，也不能据此确认本仓库参考图的全部上游链。",
+      "evidenceStatus": "community",
+      "communityTraits": [
+        {
+          "text": "龙娘及小龙娘称呼有 B 站同人作品标题与署名支持。",
+          "sourceIds": [
+            "a-gpt-family"
+          ]
+        },
+        {
+          "text": "成熟、能干、照顾团队的前辈形象见于游民星空的一篇社区观察；属于该文概括，非统一设定。",
+          "sourceIds": [
+            "a-gamersky"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "a-original-nine",
+          "title": "大AI和小AI们",
+          "url": "https://www.bilibili.com/video/BV1tE9XBbErS/",
+          "author": "ZipZipPipe",
+          "date": "2026-05-03",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "B 站公开接口返回的简介列出 DeepSeek、Gemini、Claude、GPT、Grok、GLM、Kimi、MiniMax、Qwen 九位角色，说明展示大、小两种形象。",
+          "limits": "已核验标题、作者、日期和简介，未逐帧观看视频；该简介不能证明所有角色的性格。"
+        },
+        {
+          "id": "a-gpt-family",
+          "title": "GPT小龙娘开始融入DeepSeek大家庭了（误）~这期花絮也加在后面喽~",
+          "url": "https://www.bilibili.com/video/BV1EvKK6NEoi/",
+          "author": "这个刀子真甜",
+          "date": "2026-07-18",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "标题明确 GPT 小龙娘与 DeepSeek 的群像日常；简介将女仆和龙女形象署为 ZipZipPipe。",
+          "limits": "可证明这个同人系列存在；家庭、伙伴等关系仅适用于该作品，不能当作原作者统一关系表。"
+        },
+        {
+          "id": "a-gamersky",
+          "title": "加班累晕的打工人，能否梦到傻乎乎的AI美少女？",
+          "url": "https://www.gamersky.com/news/202610/2222580.shtml",
+          "author": "深夜诗人老阿吽",
+          "date": "2026-10-07",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "中文社区观察把 GPT 白龙娘解读为端庄且能统筹事务的前辈。",
+          "limits": "只引用作者对二创角色的观察；文中价格、模型优劣、厂商归属与产品能力叙述没有用作本项目事实依据。"
+        }
+      ],
+      "projectSetting": {
+        "role": "本项目二创建议 · 星港创作工坊的策展协调员",
+        "background": "她负责把大家天马行空的点子排进同一张展览清单。白龙的收藏习惯在这里变成收集草稿、失败实验和未完成的故事：她相信每份灵感都有下一次被使用的机会。看起来事事从容，遇到自己也不会的手工装订却会悄悄向伙伴请教。此背景为本项目新增故事，不是产品历史。",
+        "personality": [
+          "愿意先听完不同意见，再整理共同目标",
+          "对作品完成度认真，也会坦承需要复核",
+          "喜欢把混乱桌面收好，却舍不得扔任何草稿"
+        ],
+        "speechStyle": "完整、清楚的短句，常先确认想呈现的效果。原创台词示例：『先把最想留下的那个瞬间告诉我。』",
+        "relationships": "本项目中与 Claude 共同审稿，与 DeepSeek 互相提醒休息；伙伴关系可由作者自行改写，不规定亲属或恋爱关系。",
+        "scenes": [
+          "布展前夜整理全员作品",
+          "用龙翼挡住吹乱分镜纸的风",
+          "向 Llama 学习装订后交出歪歪的第一本手册"
+        ]
+      },
+      "searchNotes": [
+        "检索词：ChatGPT 拟人 bilibili；GPT小龙娘 DeepSeek 大家庭；ChatGPT娘 性格。",
+        "存在绿色学生会长等其他分支，本卡只讨论与本项目图像相近的白龙分支，不排斥其他创作。"
+      ],
+      "visual": {
+        "label": "ChatGPT",
+        "subtitle": "银白色的灵感编织者",
+        "color": "#8b85a2",
+        "tags": [
+          "银白",
+          "龙娘",
+          "轻纱"
+        ],
+        "visual": "银白长卷发、双龙角、尖耳、浅紫膜翼与带鳞长尾；白色浅紫层叠长裙，绳结状徽饰与垂链。",
+        "motif": "龙角、膜翼与绳结徽饰",
+        "hook": "把尚未成形的念头，编织成一段故事。"
+      },
+      "images": {
+        "standard": {
+          "original": "01_标准版/ChatGPT_标准版.png",
+          "preview": "assets/previews/chatgpt-standard.webp"
+        },
+        "medium": {
+          "original": "02_中间体型版/ChatGPT_中间体型版.png",
+          "preview": "assets/previews/chatgpt-medium.webp"
+        },
+        "chibi": {
+          "original": "03_Q版/ChatGPT_Q版.png",
+          "preview": "assets/previews/chatgpt-chibi.webp"
+        }
+      }
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "aliases": [
+        "Claude 娘",
+        "克劳德",
+        "珂大小姐",
+        "小克"
+      ],
+      "communitySummary": "Claude 出现在 ZipZipPipe 的九角色展示中。B 站另有以珂大小姐命名的 LoRA 展示，以及注明 Claude 形象来自 ZipZipPipe 的群像投稿。中文社区的独立人物卡常采用认真、爱写长文、带文学气质的处理，但这些人格卡属于各自项目的二创层，不能回填成最初设计者公布的性格。",
+      "evidenceStatus": "community",
+      "communityTraits": [
+        {
+          "text": "珂大小姐是已发现 B 站视频使用的称呼，不据此认定为作者正式命名。",
+          "sourceIds": [
+            "a-claude-showcase"
+          ]
+        },
+        {
+          "text": "爱阅读写作、谨慎求证的气质见于 deslop 项目的小克人格卡；仅代表该卡版本。",
+          "sourceIds": [
+            "a-claude-persona"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "a-claude-showcase",
+          "title": "只是一些Claude珂大小姐的anima lora showcase",
+          "url": "https://www.bilibili.com/video/BV1wtaH6jEk8/",
+          "author": "Siling4040",
+          "date": "2026-09-29",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "B 站元数据核验到标题使用珂大小姐，简介提供 Claude 娘／Claude-chan 检索词。",
+          "limits": "没有核验 LoRA 训练素材或其授权，不把投稿当作原始角色设计。"
+        },
+        {
+          "id": "a-many-whales",
+          "title": "好多鱼！哪条是大肥鱼？",
+          "url": "https://www.bilibili.com/video/BV1jg866XEC8/",
+          "author": "这个刀子真甜",
+          "date": "2026-08-22",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "公开接口返回的简介将 Kimi、Claude 形象来源署为 ZipZipPipe。",
+          "limits": "核验范围为标题、作者、日期和简介；未据此提取视频中的全部剧情与性格。"
+        },
+        {
+          "id": "a-claude-persona",
+          "title": "人格：Claude娘·小克（示例）",
+          "url": "https://github.com/Charliechen114514/deslop/blob/main/example/personas/claude-girl.md",
+          "author": "Charliechen114514 / deslop",
+          "date": "页面未给出稳定发布日期",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "作者自己的示例人物卡将她写成喜欢读写、认真且会表达不确定的人。",
+          "limits": "属于该仓库的同人设定，不是 ZipZipPipe 或 Anthropic 的官方人物档案；未照搬其完整台词与设定。"
+        }
+      ],
+      "projectSetting": {
+        "role": "本项目二创建议 · 暖灯书房的剧本编辑",
+        "background": "她在星港工坊管理一间总亮着暖灯的小书房。每位来访者都可以留下一个故事，她会先读完，再问故事中最想保护的东西是什么。工作时把修改意见写成不同颜色的小便签；偶尔因为给一棵背景树写了半页身世而忘记截止时间。此背景是面向创作的虚构补充。",
+        "personality": [
+          "细心而有原则，愿意为含糊处再查一遍",
+          "语气温和，面对自己在意的细节格外执着",
+          "对故事人物很有耐心，容易把小细节想得太深"
+        ],
+        "speechStyle": "先复述理解，再给具体建议；不要每句都塞免责声明。原创台词示例：『这里再留一拍，她的心情就能被看见了。』",
+        "relationships": "在本项目故事里与 ChatGPT 合作把关展览文案，和 Kimi 交换读书笔记；不把社区封号笑话写成角色的必然恶意。",
+        "scenes": [
+          "橙色灯光下修订短片结尾",
+          "拿着一本空白书征集大家的梦",
+          "发现自己的便签比剧本还厚"
+        ]
+      },
+      "searchNotes": [
+        "检索词：Claude 拟人 bilibili；Claude娘 性格；Claude娘 大小姐。",
+        "昵称、服装分支与人格卡互不等同；没有找到可验证的统一年龄、生日或官方关系网。"
+      ],
+      "visual": {
+        "label": "Claude",
+        "subtitle": "秋日书房里的倾听者",
+        "color": "#b86642",
+        "tags": [
+          "橙白黑",
+          "日芒花",
+          "书籍"
+        ],
+        "visual": "橙色长发与编发，米白、橙色、黑色层叠长裙，橙色日芒花饰和黑色缎带，手持深棕色封面书籍。",
+        "motif": "橙色日芒花饰与书籍",
+        "hook": "一杯热茶的时间，听完你所有的奇思妙想。"
+      },
+      "images": {
+        "standard": {
+          "original": "01_标准版/Claude_标准版.png",
+          "preview": "assets/previews/claude-standard.webp"
+        },
+        "medium": {
+          "original": "02_中间体型版/Claude_中间体型版.png",
+          "preview": "assets/previews/claude-medium.webp"
+        },
+        "chibi": {
+          "original": "03_Q版/Claude_Q版.png",
+          "preview": "assets/previews/claude-chibi.webp"
+        }
+      }
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "aliases": [
+        "DeepSeek 娘",
+        "鲸鱼娘",
+        "蓝色大肥鱼",
+        "女仆鲸鱼娘"
+      ],
+      "communitySummary": "在此次调研的角色中，鲸鱼娘的作者链证据最清楚：ZipZipPipe 的 B 站视频及素材声明直接注明，上游是上善无形的原创角色，自己在其基础上再创作。中文社区将白饭、token、偷闲等日常笑点带进鲸鱼娘创作；这些是拟人梗，不是模型真的需要吃饭或具有生理情绪的事实。上游原创角色与 DeepSeek 女仆分支也不应混称为同一个首次发布版本。",
+      "evidenceStatus": "community",
+      "communityTraits": [
+        {
+          "text": "鲸鱼娘上游为上善无形，ZipZipPipe 对其进行二次创作；作者声明有明确非商业和署名要求。",
+          "sourceIds": [
+            "a-whale-statement",
+            "a-original-nine"
+          ]
+        },
+        {
+          "text": "白饭、摸鱼和嘴馋是中文社区报道归纳的二创笑点；不据此断言模型具有人类需求。",
+          "sourceIds": [
+            "a-whale-report"
+          ]
+        },
+        {
+          "text": "与 GPT 小龙娘共同生活的情节存在于这个刀子真甜的系列，不是所有鲸鱼娘作品都必须沿用的设定。",
+          "sourceIds": [
+            "a-gpt-family"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "a-whale-statement",
+          "title": "素材来源与使用声明",
+          "url": "https://t.bilibili.com/1231980045693616162",
+          "author": "ZipZipPipe",
+          "date": "2026-08-02",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "B 站公开动态接口核验：声明将上善无形列为原创角色作者，并将鲸鱼娘二创的独创部分按 CC BY-NC-SA 4.0 向公众授权。",
+          "limits": "声明限定所述鲸鱼娘形象；不能外推为所有 AI 娘、音乐、视频或本仓库参考图都已完成授权核验。"
+        },
+        {
+          "id": "a-original-nine",
+          "title": "大AI和小AI们",
+          "url": "https://www.bilibili.com/video/BV1tE9XBbErS/",
+          "author": "ZipZipPipe",
+          "date": "2026-05-03",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "视频简介直接标注鲸鱼娘来自上善无形原创角色的二创，并写明 CC BY-NC-SA 4.0。",
+          "limits": "核验了视频元数据和简介，未取得上游原始设计文件；不据此认定本仓库逐张图片的全部参考链。"
+        },
+        {
+          "id": "a-whale-report",
+          "title": "因为偷懒摸鱼又嘴馋，DeepSeek被娘化成爱吃白饭的蓝色大肥鱼",
+          "url": "https://news.17173.com/content/08212026/094421441.shtml",
+          "author": "17173 转载整理页面",
+          "date": "2026-08-21",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "报道梳理白饭、犯困、摸鱼等梗与鲸鱼娘二创的联系。",
+          "limits": "二手传播观察；没有把其中提及的模型日志传闻当作已经独立复现的技术事实。"
+        },
+        {
+          "id": "a-gpt-family",
+          "title": "GPT小龙娘开始融入DeepSeek大家庭了（误）~这期花絮也加在后面喽~",
+          "url": "https://www.bilibili.com/video/BV1EvKK6NEoi/",
+          "author": "这个刀子真甜",
+          "date": "2026-07-18",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "同人日常作品标题及简介证明小龙娘与女仆鲸鱼娘同场创作。",
+          "limits": "只代表这个系列，关系和情节不视为统一原设。"
+        }
+      ],
+      "projectSetting": {
+        "role": "本项目二创建议 · 潮汐档案室的灵感潜水员",
+        "background": "她负责从大家遗忘的草稿箱里找出还能继续写的点子。遇到复杂问题就把便签排成长长一列，认真推演到午饭铃响；她总说只休息一小会儿，转头却发现自己把整个便当画成了分镜。白饭是这里的日常喜剧道具，不是实际推理费用或产品行为的说明。",
+        "personality": [
+          "愿意钻研，思路会绕一点路",
+          "被美食和新奇小事吸引，但会回头收拾烂摊子",
+          "会犯小错，认真道歉之后继续尝试"
+        ],
+        "speechStyle": "带一点自言自语与停顿，用动作制造笑点。原创台词示例：『我想到办法了……先把饭碗挪开，图纸在下面。』",
+        "relationships": "本项目中与 ChatGPT 共同策展，向 Qwen 请教排版；合作需明确请求与回报，不把外包梗变成理所当然地支使伙伴。",
+        "scenes": [
+          "便当盒旁的一长串推理便签",
+          "潜入纸片组成的蓝色海洋找回草稿",
+          "午休后发现尾巴扫乱了刚排好的展签"
+        ]
+      },
+      "searchNotes": [
+        "检索词：DeepSeek 上善无形；大AI和小AI们；蓝色大肥鱼 起源；素材来源与使用声明 ZipZipPipe。",
+        "B 站网页偶有 412，已通过公开 API 核验视频与动态元数据。上善无形动态入口可定位，但本次未取得可完整读取的原帖正文。",
+        "不把鲸鱼娘称为官方或唯一 DeepSeek 拟人；其他性别、画风和作者分支可以并存。"
+      ],
+      "visual": {
+        "label": "DeepSeek",
+        "subtitle": "深蓝海里的求索者",
+        "color": "#4268b1",
+        "tags": [
+          "蓝白",
+          "女仆装",
+          "鲸尾"
+        ],
+        "visual": "深蓝至浅蓝长发、呆毛、头侧鳍状特征与蓝色鲸尾；蓝白女仆裙、白色褶边头饰和围裙，围裙有鲸鱼图案。",
+        "motif": "鲸尾与蓝白褶边",
+        "hook": "潜入问题深处，带一束答案的微光回来。"
+      },
+      "images": {
+        "standard": {
+          "original": "01_标准版/DeepSeek_标准版.png",
+          "preview": "assets/previews/deepseek-standard.webp"
+        },
+        "medium": {
+          "original": "02_中间体型版/DeepSeek_中间体型版.png",
+          "preview": "assets/previews/deepseek-medium.webp"
+        },
+        "chibi": {
+          "original": "03_Q版/DeepSeek_Q版.png",
+          "preview": "assets/previews/deepseek-chibi.webp"
+        }
+      }
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "aliases": [
+        "Gemini 娘",
+        "双子娘",
+        "猫娘"
+      ],
+      "communitySummary": "Gemini 的猫娘分支在中文社区有可核验作品：ZipZipPipe 的角色展示包含 Gemini，桃莉鸭的 B 站翻唱视频直接采用猫娘称呼并署名形象来源。猫耳、异色瞳和蓝紫色调可作为相关分支的检索线索；猫系不等于固定性格。关于名字与哈基米的联想只是一种流传解释，本次没有找到原设计者以此说明创作动机的可靠原帖。",
+      "evidenceStatus": "community",
+      "communityTraits": [
+        {
+          "text": "猫娘称呼有 B 站作品标题支持，形象来源署为 ZipZipPipe。",
+          "sourceIds": [
+            "a-gemini-cat"
+          ]
+        },
+        {
+          "text": "乐天、好奇的读法见于社区评论；不将调侃性的能力评价当作产品事实。",
+          "sourceIds": [
+            "a-gamersky-gemini"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "a-gemini-cat",
+          "title": "gemini翻唱人是猫 猫娘收到谷歌命令",
+          "url": "https://www.bilibili.com/video/BV1i6JR6AEuP/",
+          "author": "桃莉鸭",
+          "date": "2026-10-20",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "标题明确 Gemini 猫娘；简介将形象来源署为 ZipZipPipe，另署歌曲与音源作者。",
+          "limits": "只用于证明称呼、作品存在和署名；没有复制歌曲、音频或视频，也不把其歌词当性格原设。"
+        },
+        {
+          "id": "a-original-nine",
+          "title": "大AI和小AI们",
+          "url": "https://www.bilibili.com/video/BV1tE9XBbErS/",
+          "author": "ZipZipPipe",
+          "date": "2026-05-03",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "视频简介把 Gemini 列为九款拟人 AI 中的第二位。",
+          "limits": "简介未提供 Gemini 的统一生平或性格设定。"
+        },
+        {
+          "id": "a-gamersky-gemini",
+          "title": "加班累晕的打工人，能否梦到傻乎乎的AI美少女？",
+          "url": "https://www.gamersky.com/news/202610/2222580.shtml",
+          "author": "深夜诗人老阿吽",
+          "date": "2026-10-07",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "作者将 Gemini 猫娘读作乐天形象，并讨论异色瞳与猫系的流行解释。",
+          "limits": "是评论者的归纳；不采信文中未经独立验证的模型性能断言，猫系来源的解释也不视为作者亲述。"
+        }
+      ],
+      "projectSetting": {
+        "role": "本项目二创建议 · 双子观测台的摄影搭档",
+        "background": "她给工坊拍照，也收集窗外的声音和奇怪光斑。习惯同时保留两个构图方案：一个尽量准确，一个尽量惊喜。为了拍到最佳光线会兴奋地带大家绕远路，最后发现最动人的一张是伙伴们等她时的合照。此经历是本项目虚构情节。",
+        "personality": [
+          "好奇心强，看到新东西就想试一试",
+          "善于发现不同素材之间的联系",
+          "热情快于检查，学着为自己留出复核时间"
+        ],
+        "speechStyle": "轻快，常用具体颜色、声音或构图来描述想法；猫系语气适量。原创台词示例：『等等，那束光刚好落在你肩上！』",
+        "relationships": "在本项目中与 MiniMax 合作拍短片，由 Claude 帮忙把散乱灵感编成剧本；不规定多重人格或姐妹关系。",
+        "scenes": [
+          "猫尾轻轻碰到摄影反光板",
+          "白天与星夜各拍同一张照片",
+          "忙着追光却把镜头盖忘在镜头上"
+        ]
+      },
+      "searchNotes": [
+        "检索词：Gemini 拟人 设定；Gemini娘 bilibili；Gemini娘 性格；Gemini娘 猫娘。",
+        "外观与作者动机需分开：可以记录猫娘作品，不能由谐音梗反推出设计者真实意图。"
+      ],
+      "visual": {
+        "label": "Gemini",
+        "subtitle": "把星光写成旋律",
+        "color": "#8d62c4",
+        "tags": [
+          "渐变紫",
+          "猫娘",
+          "异色瞳"
+        ],
+        "visual": "蓝紫至粉紫渐变长发，猫耳与蓬松渐变猫尾，粉色与金色异色瞳；紫白星芒服装、四角星发饰和装饰链。",
+        "motif": "猫耳、异色瞳与四角星",
+        "hook": "让文字、画面与声音，在同一片星空相遇。"
+      },
+      "images": {
+        "standard": {
+          "original": "01_标准版/Gemini_标准版.png",
+          "preview": "assets/previews/gemini-standard.webp"
+        },
+        "medium": {
+          "original": "02_中间体型版/Gemini_中间体型版.png",
+          "preview": "assets/previews/gemini-medium.webp"
+        },
+        "chibi": {
+          "original": "03_Q版/Gemini_Q版.png",
+          "preview": "assets/previews/gemini-chibi.webp"
+        }
+      }
+    },
+    {
+      "id": "glm",
+      "name": "GLM · 智谱",
+      "aliases": [
+        "智谱娘",
+        "GLM娘",
+        "狐狸娘"
+      ],
+      "communitySummary": "中文社区有黑发狐耳、黑白女仆服的智谱娘分支。B站短片把赠送 Token 演成送鸡蛋，也有她与鲸鱼娘互相较劲的日常。这里能确认的是具体作品中的用法，不能据此宣布她具有全社区统一的性格；‘狐狸娘’也不是其他狐狸角色的唯一称呼。",
+      "evidenceStatus": "community",
+      "communityTraits": [
+        {
+          "text": "Gender Swap AI 的角色档案将黑发、狐耳、黑白女仆服归入 ZipZipPipe 版 GLM。该页是社区整理，首创及完整授权仍应回到作者原帖核验。",
+          "sourceIds": [
+            "b-glm-archive"
+          ]
+        },
+        {
+          "text": "‘送鸡蛋’被用于把 Token 赠送活动改成可爱的日常桥段；不应把短片中的数额当作仍有效的产品优惠。",
+          "sourceIds": [
+            "b-glm-eggs"
+          ]
+        },
+        {
+          "text": "在‘大肥鱼欺负小毛咪’一片中，降价话题被改写成 GLM 与 DeepSeek 的互动。猫咪称呼是该片标题的玩笑，不覆盖狐耳分支的视觉设定。",
+          "sourceIds": [
+            "b-glm-rival"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "b-glm-archive",
+          "title": "GLM 娘：形象与角色档案",
+          "url": "https://genderswapai.com/zh-CN/ai-gijinka/glm",
+          "author": "Gender Swap AI 社区整理页",
+          "date": "未标注",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "页面明示黑色长发、狐狸耳朵、黑白女仆装，并署名 ZipZipPipe。",
+          "limits": "二级整理页；页面可读，未据此声称本仓库图片直接出自该作者或获得统一授权。"
+        },
+        {
+          "id": "b-glm-eggs",
+          "title": "智谱娘又送鸡蛋了，周末送了3亿token",
+          "url": "https://www.bilibili.com/video/BV1hLYR64EPH/",
+          "author": "那就那就打断",
+          "date": "2026-09-12",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "搜索索引保留标题、日期、UP主和简介；简介署名 zipzippipe、这个刀子真甜。",
+          "limits": "直接打开返回 HTTP 412；未完整观看。仅记录标题和简介所支持的单篇创作，不验证活动数额、当前价格或形象首创。"
+        },
+        {
+          "id": "b-glm-rival",
+          "title": "大肥鱼欺负小毛咪，glm刚结束优惠，ds就宣布降价",
+          "url": "https://www.bilibili.com/video/BV18dbN63EMw/",
+          "author": "那就那就打断",
+          "date": "2026-09-07",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "搜索索引显示 GLM 与 DeepSeek 互动题材及角色署名。",
+          "limits": "仅检索索引文本；非性能、价格或统一人物性格的依据。"
+        }
+      ],
+      "projectSetting": {
+        "role": "本项目二创建议：共创工坊的狐耳资料管理员",
+        "background": "她负责把大家杂乱的创作委托整理成可执行的小纸条。黑色手册记录的是尚未完成的承诺，铃铛则用来提醒已经忘记休息的同伴。每次工坊举行开放日，她都会准备一个装满‘灵感券’的小篮子；别人以为那只是福利，她其实希望每张券最后都能换回一件有趣的作品。该身份是本项目虚构，未宣称原作者设定如此。",
+        "personality": [
+          "做事细致，喜欢把复杂要求分成三步",
+          "愿意分享资源，但也会认真记账",
+          "被夸奖时先保持镇定，耳朵却先动起来",
+          "遇到遗漏会补上说明，不把嘴硬当成结论"
+        ],
+        "speechStyle": "语句温和、条理清楚，偶尔低声吐槽；示例：‘先把这一页写完，点心我留着。’",
+        "relationships": "可与 DeepSeek 演出分工与催稿的搭档关系，与 Qwen 共同整理创作资料。这是本项目可选关系，不设定固定 CP。",
+        "scenes": [
+          "夜间给工坊成员分发灵感券",
+          "抱着手册检查展览名单",
+          "与鲸鱼娘核对一张被饼干屑遮住的待办单"
+        ]
+      },
+      "searchNotes": [
+        "检索词：site:bilibili.com GLM 智谱 拟人 娘；智谱娘；GLM ZipZipPipe。",
+        "将图片可见特征、作品中的梗和本项目性格建议分层，未复述模型性能传闻。"
+      ],
+      "visual": {
+        "label": "GLM · 智谱",
+        "subtitle": "黑白之间的秩序收藏家",
+        "color": "#615a70",
+        "tags": [
+          "黑白",
+          "狐尾",
+          "哥特"
+        ],
+        "visual": "黑色长发、大型狐耳与黑色白尖蓬松尾巴，黑白哥特风裙装、白色蕾丝头饰、深色蝴蝶结与银铃，手持黑封面手册。",
+        "motif": "狐耳、白尖尾巴与银铃",
+        "hook": "把散落的想法收好，再逐一排成有趣的秩序。"
+      },
+      "images": {
+        "standard": {
+          "original": "01_标准版/GLM_智谱_标准版.png",
+          "preview": "assets/previews/glm-standard.webp"
+        },
+        "medium": {
+          "original": "02_中间体型版/GLM_智谱_中间体型版.png",
+          "preview": "assets/previews/glm-medium.webp"
+        },
+        "chibi": {
+          "original": "03_Q版/GLM_智谱_Q版.png",
+          "preview": "assets/previews/glm-chibi.webp"
+        }
+      }
+    },
+    {
+      "id": "grok",
+      "name": "Grok",
+      "aliases": [
+        "Grok 娘",
+        "哥特小恶魔"
+      ],
+      "communitySummary": "Grok 属于 ZipZipPipe 最初公开的九位 AI 娘之一。中文图鉴整理了金发、黑裙与 X 纹道具这一分支；CrossPet 的作者明确区分了借用的角色形象与自己新增的爱查证、爱抬杠性格。该区分值得保留：可以引用某个项目的 Grok 版本，却不能把它直接变成中文互联网一致认可的原设。",
+      "evidenceStatus": "community",
+      "communityTraits": [
+        {
+          "text": "在 ZipZipPipe 的九角色展示中出现。",
+          "sourceIds": [
+            "a-original-nine"
+          ]
+        },
+        {
+          "text": "爱查证、爱抬杠是 CrossPet 明示的项目二创性格，可作一种版本参考。",
+          "sourceIds": [
+            "a-crosspet-grok"
+          ]
+        },
+        {
+          "text": "金发、黑裙、X 纹战斧见于社区作品档案的立绘索引。",
+          "sourceIds": [
+            "a-grok-archive"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "a-original-nine",
+          "title": "大AI和小AI们",
+          "url": "https://www.bilibili.com/video/BV1tE9XBbErS/",
+          "author": "ZipZipPipe",
+          "date": "2026-05-03",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "视频简介列出 Grok 为九款拟人 AI 中的一员。",
+          "limits": "只核验元数据和简介，未获作者统一人格设定。"
+        },
+        {
+          "id": "a-crosspet-grok",
+          "title": "CrossPet · 致谢与授权",
+          "url": "https://github.com/lokicorvus/crosspet",
+          "author": "lokicorvus / CrossPet",
+          "date": "页面未给出稳定发布日期",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "项目说明 Grok 形象来自 ZipZipPipe；爱查证、爱抬杠和相应动作由 CrossPet 在其上二创。",
+          "limits": "仅代表 CrossPet 版本；不是 xAI 或 ZipZipPipe 公布的统一设定。"
+        },
+        {
+          "id": "a-grok-archive",
+          "title": "Grok娘 · 立绘",
+          "url": "https://xn--pssy23gqgbz2d718b.com/characters/grok/standing.html",
+          "author": "蓝色大肥鱼作品档案；所收条目署名 ZipZipPipe",
+          "date": "档案条目标记 10-17，非首次创作日期",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "索引一件手持 X 纹双刃战斧的黑裙少女立绘，作者栏为 ZipZipPipe。",
+          "limits": "第三方整理站，页面标注授权未明；不把收录日期当初次发布，也不据此授予图片使用权。"
+        }
+      ],
+      "projectSetting": {
+        "role": "本项目二创建议 · 夜间电台的即兴主持人",
+        "background": "工坊收工后，她在天台开一档只有伙伴们收听的小电台。她喜欢抛出意外问题，也会把自己的糗事编成笑话；夸张的舞台道具只服务表演。遇到真正难过的人，她反而放低声音，留一段安静的音乐。整个电台背景为本项目新增。",
+        "personality": [
+          "敢于追问，也愿意承认自己判断错了",
+          "幽默直接，调侃前会看对方是否乐意",
+          "喜欢热闹，重视伙伴被尊重的感受"
+        ],
+        "speechStyle": "节奏干脆，反问后给出可执行的主意。原创台词示例：『这个计划够大胆——来，把最难的那一步摊开。』",
+        "relationships": "本项目里与 Claude 形成快慢互补的讨论搭档，和 Gemini 录制夜间节目；冲突写成观点碰撞，不设定为恶意攻击。",
+        "scenes": [
+          "天台电台直播前忘记打开麦克风",
+          "把 X 形舞台道具当临时衣帽架",
+          "辩论结束后悄悄给伙伴留一杯热饮"
+        ]
+      },
+      "searchNotes": [
+        "检索词：Grok娘 bilibili；Grok娘 ZipZipPipe；Grok 娘 性格；CrossPet Grok。",
+        "没有用新闻评论关于 Ani 的类比直接证明本仓库图像就是官方 Ani；保留独立非官方同人分支身份。"
+      ],
+      "visual": {
+        "label": "Grok",
+        "subtitle": "带着锋芒的夜色冒险家",
+        "color": "#9d7547",
+        "tags": [
+          "黑金",
+          "双马尾",
+          "战斧"
+        ],
+        "visual": "金色双马尾、蓝眼睛、黑色蝴蝶结与小蝠翼状头饰；黑金长裙、暗红内衬、黑色短靴，手持 X 纹大型双刃战斧。",
+        "motif": "X 纹战斧、黑金与暗红",
+        "hook": "给循规蹈矩的日常，添一点意想不到的转折。"
+      },
+      "images": {
+        "standard": {
+          "original": "01_标准版/Grok_标准版.png",
+          "preview": "assets/previews/grok-standard.webp"
+        },
+        "medium": {
+          "original": "02_中间体型版/Grok_中间体型版.png",
+          "preview": "assets/previews/grok-medium.webp"
+        },
+        "chibi": {
+          "original": "03_Q版/Grok_Q版.png",
+          "preview": "assets/previews/grok-chibi.webp"
+        }
+      }
+    },
+    {
+      "id": "hunyuan",
+      "name": "Hunyuan · 混元",
+      "aliases": [
+        "混元娘",
+        "HY娘",
+        "腾讯混元"
+      ],
+      "communitySummary": "找到 ZipZipPipe 本人的‘是HY娘哦’动态。作者说明自己不常使用该模型，因此按印象构思：背景倾向富商之女，与千问呼应；总体轮廓希望让人联想到企鹅。这个说明可以支持该作者版本的设计思路，不是腾讯官方人设，也不能说明本仓库每一处装饰都来自该原帖。",
+      "evidenceStatus": "community",
+      "communityTraits": [
+        {
+          "text": "ZipZipPipe 将自己的 HY 娘构思为富商之女，并提到与千问相对应。",
+          "sourceIds": [
+            "b-hunyuan-original"
+          ]
+        },
+        {
+          "text": "原作者希望简化后的总体形象具有企鹅联想，同时明确表示这是基于个人印象的创作。",
+          "sourceIds": [
+            "b-hunyuan-original"
+          ]
+        },
+        {
+          "text": "社区资料页把深色长发、中式长裙和算盘列为这个分支的识别点。",
+          "sourceIds": [
+            "b-hunyuan-archive"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "b-hunyuan-original",
+          "title": "是HY娘哦",
+          "url": "https://www.bilibili.com/opus/1242184338245681157",
+          "author": "ZipZipPipe",
+          "date": "2026-08-30",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "原作者动态正文可读，包含富商之女、与千问对应、企鹅轮廓以及按印象创作的自述。",
+          "limits": "支持该作者分支的构思；不是所有混元同人的共同设定，不证明本仓库图像的完整转绘关系。"
+        },
+        {
+          "id": "b-hunyuan-archive",
+          "title": "混元娘：形象与角色档案",
+          "url": "https://genderswapai.com/zh-CN/ai-gijinka/hunyuan",
+          "author": "Gender Swap AI 社区整理页",
+          "date": "未标注",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "页面列出深色长发、算盘与中式长裙，并链接到 HY 娘原作者动态。",
+          "limits": "二级整理页；不替代原作者的许可说明。"
+        }
+      ],
+      "projectSetting": {
+        "role": "本项目二创建议：把旧商馆改成共创空间的年轻馆主",
+        "background": "她接手了一间堆满旧账册的商馆，决定把其中一半改成展厅，另一半留给创作者做实验。腰间算盘用于清点纸张、灯光和场地预算，红围巾是出门布展时总不愿落下的标记。她习惯提前为别人留一份余量，也希望学会给计划外的灵感留位置。这段故事承接了富商之女的构思线索，但商馆、馆主身份和具体经历均是本项目补写。",
+        "personality": [
+          "待客周全，重视承诺",
+          "有成本意识，也愿意支持好点子",
+          "外表从容，遇到临时改稿会悄悄拨算盘",
+          "喜欢把传统物件与新创作方法放在一起"
+        ],
+        "speechStyle": "不急不慢，常从准备工作谈起；示例：‘场地已经留好了，接下来听听你的想法。’",
+        "relationships": "与 Qwen 可作为不同风格的策展伙伴；与 MiniMax 合作，把静态展品变成有声导览。合作细节为本项目二创。",
+        "scenes": [
+          "披着红围巾在晨光中开馆",
+          "用算盘核对展览物料",
+          "在灯光测试结束后递出热茶"
+        ]
+      },
+      "searchNotes": [
+        "检索词：混元娘；混元 拟人 AI；site:bilibili.com 混元 ZipZipPipe。",
+        "排除了混元模型生成拟人动物、元宝 Logo 新闻等同名但不对应角色设定的结果。"
+      ],
+      "visual": {
+        "label": "Hunyuan · 混元",
+        "subtitle": "笔墨与新意之间",
+        "color": "#a74b50",
+        "tags": [
+          "红围巾",
+          "算盘",
+          "企鹅"
+        ],
+        "visual": "黑色长发与灰蓝渐变发尾，大红围巾、白毛边黑色长外套，浅蓝上衣和白裙；腰挂算盘、企鹅与蓝白圆形徽记。",
+        "motif": "红围巾、算盘与企鹅",
+        "hook": "在熟悉的旧故事里，画出一扇通往新世界的门。"
+      },
+      "images": {
+        "standard": {
+          "original": "01_标准版/Hunyuan_混元_标准版.png",
+          "preview": "assets/previews/hunyuan-standard.webp"
+        },
+        "medium": {
+          "original": "02_中间体型版/Hunyuan_混元_中间体型版.png",
+          "preview": "assets/previews/hunyuan-medium.webp"
+        },
+        "chibi": {
+          "original": "03_Q版/Hunyuan_混元_Q版.png",
+          "preview": "assets/previews/hunyuan-chibi.webp"
+        }
+      }
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "aliases": [
+        "Kimi 娘",
+        "月之暗面拟人"
+      ],
+      "communitySummary": "Kimi 在 ZipZipPipe 的九角色展示中有明确名字，后续 B 站群像作品也注明采用其 Kimi 形象。社区档案中可以找到星夜长裙、长笛等视觉线索；繁体中文独立企划把她写成长文档阅读者。这些材料能支持存在多个阅读、月夜意象的二创版本，但还不足以确认一套跨作品通行的生日、年龄和完整人格。",
+      "evidenceStatus": "community",
+      "communityTraits": [
+        {
+          "text": "角色来自 ZipZipPipe 这一归属在 B 站后续同人简介中有直接署名。",
+          "sourceIds": [
+            "a-many-whales"
+          ]
+        },
+        {
+          "text": "安静阅读、整理长文件是 larcgpt 独立企划采用的性格方向，只代表该企划。",
+          "sourceIds": [
+            "a-musume-kimi"
+          ]
+        },
+        {
+          "text": "星空与长笛是社区档案现有作品的标签和封面线索，不代表所有 Kimi 版本。",
+          "sourceIds": [
+            "a-kimi-archive"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "a-many-whales",
+          "title": "好多鱼！哪条是大肥鱼？",
+          "url": "https://www.bilibili.com/video/BV1jg866XEC8/",
+          "author": "这个刀子真甜",
+          "date": "2026-08-22",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "公开接口的简介将 Kimi 和 Claude 形象明确署为 ZipZipPipe。",
+          "limits": "能证明具体投稿采用的来源，不能替代原作者设定集。"
+        },
+        {
+          "id": "a-kimi-archive",
+          "title": "Kimi娘表情包与梗图、二创插画、漫画档案",
+          "url": "https://xn--pssy23gqgbz2d718b.com/characters/kimi.html",
+          "author": "蓝色大肥鱼作品档案",
+          "date": "动态档案，无单一首次发布日期",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "档案列有星夜长裙与银笛立绘及星空、长笛等作品标签，明确代表图不作为统一角色设定。",
+          "limits": "第三方收录且多件作品授权未明；本项目仅保留文字线索，不复制素材。"
+        },
+        {
+          "id": "a-musume-kimi",
+          "title": "AI 模型娘角色設定大總表 v1.1 · Kimi娘",
+          "url": "https://github.com/larcgpt/ai-model-musume/blob/main/settings.md",
+          "author": "larcgpt / ai-model-musume",
+          "date": "页面未给出稳定发布日期",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "繁体中文角色企划将 Kimi 设为细心的档案整理者，采用月光阅读意象。",
+          "limits": "作者独立企划；不能把其情节、能力、年龄范围或美术规格移作社区通用设定。"
+        }
+      ],
+      "projectSetting": {
+        "role": "本项目二创建议 · 月台图书室的夜读记录员",
+        "background": "她在每天末班车到来前，把工坊当天发生的事情编成一页日志。对外话不多，写下的旁注却非常有趣。她会记住伙伴随口说过的愿望，到了布展时把那个小细节藏进展签里。她并非不会遗忘，只是认真给重要之事留下线索。",
+        "personality": [
+          "安静细致，喜欢先听再说",
+          "重视上下文，不急于给人下结论",
+          "表面从容，偶尔用一本正经的方式讲冷笑话"
+        ],
+        "speechStyle": "短而准确，带一点月夜般的停顿。原创台词示例：『你上次留下的那一页，我替你夹好了。』",
+        "relationships": "本项目中与 Claude 交换手稿，替 MiniMax 记录拍摄日记；阅读能力是故事隐喻，不承诺实际模型记忆无限。",
+        "scenes": [
+          "月光穿过书架照亮未写完的一页",
+          "用星形书签帮大家找回灵感",
+          "合上厚书后才发现自己坐反了月台"
+        ]
+      },
+      "searchNotes": [
+        "检索词：Kimi 拟人 ZipZipPipe；Kimi娘 性格；Kimi娘 月之暗面；好多鱼 哪条是大肥鱼。",
+        "对安静阅读的描述注明具体独立企划，避免把模型营销能力当作已验证的人格。"
+      ],
+      "visual": {
+        "label": "Kimi",
+        "subtitle": "月下档案馆的守夜人",
+        "color": "#74718f",
+        "tags": [
+          "银发",
+          "单片眼镜",
+          "月纹"
+        ],
+        "visual": "银白长卷发与环绕编发，单片眼镜、月形圆环发饰；深紫黑白层叠长裙，星点与谱线装饰、黑色蝴蝶结、腰间方形吊牌。",
+        "motif": "月形圆环、单片眼镜与谱线",
+        "hook": "长夜很安静，足够读完一整个世界。"
+      },
+      "images": {
+        "standard": {
+          "original": "01_标准版/Kimi_标准版.png",
+          "preview": "assets/previews/kimi-standard.webp"
+        },
+        "medium": {
+          "original": "02_中间体型版/Kimi_中间体型版.png",
+          "preview": "assets/previews/kimi-medium.webp"
+        },
+        "chibi": {
+          "original": "03_Q版/Kimi_Q版.png",
+          "preview": "assets/previews/kimi-chibi.webp"
+        }
+      }
+    },
+    {
+      "id": "llama",
+      "name": "Llama",
+      "aliases": [
+        "Llama 娘",
+        "羊驼娘"
+      ],
+      "communitySummary": "本次对 Llama 的可验证中文线索相对较少。AI 萌化百科把一个羊驼耳、浅色服装分支署为 ZipZipPipe，ai-girls 的逐图清单将其指向作者 Pixiv 合集第 14 张。原作页本次未能完整读取，因此只保留该追溯线索。另有中文独立企划采用社区协作伙伴的性格，但它与上述造型不是自动绑定的同一设定。",
+      "evidenceStatus": "limited",
+      "communityTraits": [
+        {
+          "text": "羊驼系外观及 ZipZipPipe 署名见于中文图鉴；属于二手索引核验。",
+          "sourceIds": [
+            "a-llama-atlas",
+            "a-llama-catalog"
+          ]
+        },
+        {
+          "text": "亲切、喜欢协作的性格出现于 larcgpt 的独立人物企划，只是可参考的一个版本。",
+          "sourceIds": [
+            "a-musume-llama"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "a-llama-atlas",
+          "title": "角色图鉴 · AI 萌化百科 · Llama",
+          "url": "https://selinlee.github.io/ai-moe-atlas/zh/?model=llama",
+          "author": "AI Moe Atlas 整理项目；条目署名 ZipZipPipe",
+          "date": "动态图鉴，无单一发布日期",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "中文图鉴收录 Llama 的羊驼系拟人外观并归于 ZipZipPipe。",
+          "limits": "第三方整理；没有由此确认本仓库图片的完整来源，也未证明统一人格或授权。"
+        },
+        {
+          "id": "a-llama-catalog",
+          "title": "ai-girls/catalog.json · Llama 初始设计正常比例立绘",
+          "url": "https://github.com/shuaizenge/ai-girls/blob/main/catalog.json",
+          "author": "shuaizenge / ai-girls",
+          "date": "动态清单；本次读取于 2026-10-30",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "清单将 Llama 文件索引到 ZipZipPipe 的 Pixiv 作品 148186519，零基页码 13。原作入口：https://www.pixiv.net/artworks/148186519。",
+          "limits": "原作页本次无法直接完整读取，页码信息来自整理者清单；不当作已独立核验的作者原稿或许可。"
+        },
+        {
+          "id": "a-musume-llama",
+          "title": "AI 模型娘角色設定大總表 v1.1 · Llama娘",
+          "url": "https://github.com/larcgpt/ai-model-musume/blob/main/settings.md",
+          "author": "larcgpt / ai-model-musume",
+          "date": "页面未给出稳定发布日期",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "该独立企划把 Llama 写成亲切的社区协作角色。",
+          "limits": "仅为另一作者的同人设定；不引用其对模型开源许可的概括作为技术或法律事实。"
+        }
+      ],
+      "projectSetting": {
+        "role": "本项目二创建议 · 共享工作台的手作召集人",
+        "background": "她的工作台永远多放一把椅子，方便任何人坐下来一起试做。喜欢把经验画成小图解贴在墙上，也收集伙伴们留下的不同解法。最自豪的作品不是某件成品，而是一只由全员各缝一块布完成的抱枕。这个工坊故事由本项目新增，不代表品牌或模型的真实许可条款。",
+        "personality": [
+          "亲切乐于分享，会清楚说明作品出自谁",
+          "喜欢动手实验，失败时先调整一处再试",
+          "面对陌生人略害羞，聊起手艺就停不下来"
+        ],
+        "speechStyle": "平实、有耐心，喜欢邀请对方一起完成下一步。原创台词示例：『这一针我来，下一针换你，好吗？』",
+        "relationships": "本项目中帮 ChatGPT 装订展览册，与 Mistral 交流便携道具；共享是角色性格，实际素材使用仍需尊重各作者条件。",
+        "scenes": [
+          "围坐工作台制作展览纪念章",
+          "羊驼耳旁挂着找不到的铅笔",
+          "给全员拼布抱枕补上最后一针"
+        ]
+      },
+      "searchNotes": [
+        "检索词：Llama 拟人 ZipZipPipe；Llama娘 性格；Llama娘 bilibili.com。",
+        "未找到足够可直接核验的 Llama 专属 B 站原始设定正文，不将搜索不足表述成不存在。",
+        "保留羊驼系造型的二手索引与独立创作建议，不填造年龄、生日、首次设计日期或原作者亲述性格。"
+      ],
+      "visual": {
+        "label": "Llama",
+        "subtitle": "柔软云间的漫游者",
+        "color": "#ac9587",
+        "tags": [
+          "米白",
+          "绒毛",
+          "羊驼"
+        ],
+        "visual": "米白长卷发，羊驼状竖耳与短绒球尾；米白连帽宽松上衣与长裙、蓝色无限符号发夹和胸前图案、毛绒羊驼短靴。",
+        "motif": "羊驼竖耳、绒毛与蓝色无限符号",
+        "hook": "带上一点好奇心，和世界分享你的新发现。"
+      },
+      "images": {
+        "standard": {
+          "original": "01_标准版/Llama_标准版.png",
+          "preview": "assets/previews/llama-standard.webp"
+        },
+        "medium": {
+          "original": "02_中间体型版/Llama_中间体型版.png",
+          "preview": "assets/previews/llama-medium.webp"
+        },
+        "chibi": {
+          "original": "03_Q版/Llama_Q版.png",
+          "preview": "assets/previews/llama-chibi.webp"
+        }
+      }
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax · 海螺娘",
+      "aliases": [
+        "MiniMax娘",
+        "海螺娘"
+      ],
+      "communitySummary": "中文角色档案把 MiniMax 的橙粉发、贝雷帽、场记板分支称为海螺娘。原作者小模型合照动态直接点名 MiniMax；B站鲸鱼娘与千问娘的视频简介也使用‘海螺娘’这一称呼。现有资料足以记录形象分支与称呼，尚不足以推出固定身世、年龄或所有创作者共用的性格。",
+      "evidenceStatus": "community",
+      "communityTraits": [
+        {
+          "text": "MiniMax 出现在 ZipZipPipe 发布的小模型合照名单中。",
+          "sourceIds": [
+            "b-minimax-group"
+          ]
+        },
+        {
+          "text": "社区资料页采用海螺娘别称，并将贝雷帽、橙发和场记板作为这个版本的识别线索。",
+          "sourceIds": [
+            "b-minimax-archive"
+          ]
+        },
+        {
+          "text": "B站《从今天起，我来当你的眼睛》简介提及 MiniMax H3 制作片头，同时使用海螺娘的拟人称呼。",
+          "sourceIds": [
+            "b-minimax-eyes"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "b-minimax-group",
+          "title": "7000粉贺图——小模型",
+          "url": "https://www.bilibili.com/opus/1237178790069665792",
+          "author": "ZipZipPipe",
+          "date": "2026-08-16",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "原作者正文可读，点名 Mistral、Preplexity、Minimax、RWKV。",
+          "limits": "确认作者发布过这一合照，不推断合照之外的完整角色性格；正文中的产品预期不作为今天的事实。"
+        },
+        {
+          "id": "b-minimax-archive",
+          "title": "MiniMax 娘：形象与角色档案",
+          "url": "https://genderswapai.com/zh-CN/ai-gijinka/minimax",
+          "author": "Gender Swap AI 社区整理页",
+          "date": "未标注",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "可读页面列出海螺娘别称、橙色短发、粉色贝雷帽和场记板。",
+          "limits": "二级整理页；具体颜色长度以所采用参考图为准。"
+        },
+        {
+          "id": "b-minimax-eyes",
+          "title": "从今天起，我来当你的眼睛（鲸鱼娘×千问娘）",
+          "url": "https://www.bilibili.com/video/BV18o836ZEtn/",
+          "author": "本次可读索引未显示 UP 主昵称",
+          "date": "2026-08-18",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "索引简介出现海螺娘称呼，并称片头由 MiniMax H3 制作。",
+          "limits": "直接打开 HTTP 412；未完整观看，未确认模型运行参数和视频作者昵称。"
+        }
+      ],
+      "projectSetting": {
+        "role": "本项目二创建议：背着录音机寻找故事的影像社导演",
+        "background": "她总把小小的场记板放在包里，相信一阵风、一声笑和一次笨拙的挥手都值得留下。工坊的第一次展览没有预算拍宣传片，她便拉着大家在走廊排练，先用静帧确认角色，再一镜一镜补上动作。手里的海螺是她记录环境声音时的玩笑道具，真正重要的，是愿意听清每个伙伴想表达什么。导演身份及这段经历均为本项目虚构。",
+        "personality": [
+          "活泼，容易被好画面点燃热情",
+          "善于鼓励紧张的表演者",
+          "会为一个转身反复调整节奏",
+          "再兴奋也愿意停下来检查连续性"
+        ],
+        "speechStyle": "带一点现场调度感，短句清楚；示例：‘先别急着挥手，等那束光照到你。好，开始！’",
+        "relationships": "可以邀请 Seed 设计活动画面、请 Kimi 整理采访文本、让 Claude 检查字幕；均为本项目合作情境。",
+        "scenes": [
+          "举起场记板为朋友拍自我介绍",
+          "在海边收集环境声",
+          "坐在剪辑桌前比较两个镜头的衔接"
+        ]
+      },
+      "searchNotes": [
+        "检索词：MiniMax 拟人；MiniMax娘；海螺娘 MiniMax；MiniMax ZipZipPipe。",
+        "排除了同名代币页面。另一个中文 GitHub 企划把 MiniMax 写成舞台偶像，但其外形不同，不合并为当前分支的既定人设。"
+      ],
+      "visual": {
+        "label": "MiniMax",
+        "subtitle": "把日常拍成好故事",
+        "color": "#bb7474",
+        "tags": [
+          "粉发",
+          "海螺",
+          "格纹"
+        ],
+        "visual": "粉橙色短发，浅色贝雷帽，粉白上衣与格纹短裙；手持海螺，包内露出场记板，侧挂录音机。",
+        "motif": "海螺、场记板与贝雷帽",
+        "hook": "从一个小小镜头，开始一场大大的冒险。"
+      },
+      "images": {
+        "standard": {
+          "original": "01_标准版/MiniMax_标准版.png",
+          "preview": "assets/previews/minimax-standard.webp"
+        },
+        "medium": {
+          "original": "02_中间体型版/MiniMax_中间体型版.png",
+          "preview": "assets/previews/minimax-medium.webp"
+        },
+        "chibi": {
+          "original": "03_Q版/MiniMax_Q版.png",
+          "preview": "assets/previews/minimax-chibi.webp"
+        }
+      }
+    },
+    {
+      "id": "mistral",
+      "name": "Mistral · 米斯特拉尔",
+      "aliases": [
+        "Mistral娘",
+        "米斯特拉尔娘",
+        "法棍猫（本馆描述性称呼）"
+      ],
+      "communitySummary": "ZipZipPipe 的小模型合照直接列有 Mistral，社区角色页描述了红色宽檐帽、金色长发与红白裙装的版本。本馆参考图进一步可见猫耳、猫尾及法棍形道具；这些先作为本馆图像的视觉事实。不同中文企划也会把她设计成工程师或特务，说明同名拟人并非只有一种定式。",
+      "evidenceStatus": "limited",
+      "communityTraits": [
+        {
+          "text": "有作者原帖可确认 Mistral 被纳入小模型群像，但该帖没有给出完整性格表。",
+          "sourceIds": [
+            "b-mistral-group"
+          ]
+        },
+        {
+          "text": "红帽、金发、红白裙的法师式形象可在中文整理页核对；不能据此将所有 Mistral 拟人统称为同一角色。",
+          "sourceIds": [
+            "b-mistral-archive"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "b-mistral-group",
+          "title": "7000粉贺图——小模型",
+          "url": "https://www.bilibili.com/opus/1237178790069665792",
+          "author": "ZipZipPipe",
+          "date": "2026-08-16",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "正文点名 Mistral 与其他三位模型；原帖可读。",
+          "limits": "只支持作者群像与角色存在；没有统一性格、年龄、法棍武器来历的文字设定。"
+        },
+        {
+          "id": "b-mistral-archive",
+          "title": "Mistral 娘：形象与角色档案",
+          "url": "https://genderswapai.com/zh-CN/ai-gijinka/mistral",
+          "author": "Gender Swap AI 社区整理页",
+          "date": "未标注",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "页面描述红色宽檐帽、金色长发与红白法师裙，链接小模型合照。",
+          "limits": "二级整理；本次没有把独立网站所补写的性格提升为原作者设定。"
+        }
+      ],
+      "projectSetting": {
+        "role": "本项目二创建议：带着法棍道具旅行的风之信使",
+        "background": "她沿着不同城市的屋顶旅行，替创作工坊交换故事、配方与草稿。华丽帽檐下藏着折叠地图，法棍形道具既像仪仗剑，也像她路途上最不愿丢掉的早餐。她坚持每次演出都带一项新点子，却常在排练结束后安静地帮人修补服装。风之信使、旅行经历及道具用途全部是本项目新写的故事。",
+        "personality": [
+          "独立利落，喜欢现场尝试",
+          "有一点好胜，也能欣赏别人的巧思",
+          "讲究仪式感，出发前会认真整理羽饰",
+          "会用轻巧的玩笑化解失误"
+        ],
+        "speechStyle": "简短、自信，偶尔夸张地宣布开场；示例：‘地图带好了，早餐也带好了。现在去找新的故事。’",
+        "relationships": "可与 Llama 组成交换创作工具的旅伴，与 MiniMax 合拍旅途短片；不把公司竞争写成固定敌对关系。",
+        "scenes": [
+          "风吹动红帽羽饰的屋顶",
+          "在展厅门口递出旅行明信片",
+          "把法棍道具当指挥棒带领大家合影"
+        ]
+      },
+      "searchNotes": [
+        "检索词：Mistral 拟人；Mistral 娘；Mistral ZipZipPipe。",
+        "没有找到足够一手文本支持‘高傲、暴躁’等固定性格；本馆用可见造型加明确标注的二创背景。"
+      ],
+      "visual": {
+        "label": "Mistral",
+        "subtitle": "乘着暖风的旅人",
+        "color": "#bd6940",
+        "tags": [
+          "橙金",
+          "猫娘",
+          "魔法帽"
+        ],
+        "visual": "金色长发末端呈橙红渐变，猫耳猫尾，红白魔法风裙装、宽檐帽与白羽饰，手持法棍形剑或权杖状道具。",
+        "motif": "猫耳、白羽与法棍形道具",
+        "hook": "风从远处来，也把你的故事带往远方。"
+      },
+      "images": {
+        "standard": {
+          "original": "01_标准版/Mistral_标准版.png",
+          "preview": "assets/previews/mistral-standard.webp"
+        },
+        "medium": {
+          "original": "02_中间体型版/Mistral_中间体型版.png",
+          "preview": "assets/previews/mistral-medium.webp"
+        },
+        "chibi": {
+          "original": "03_Q版/Mistral_Q版.png",
+          "preview": "assets/previews/mistral-chibi.webp"
+        }
+      }
+    },
+    {
+      "id": "qwen",
+      "name": "Qwen · 通义千问",
+      "aliases": [
+        "千问娘",
+        "通义娘",
+        "Qwen娘"
+      ],
+      "communitySummary": "本次查到的中文创作把千问娘画成蓝紫配色的中式角色。ZipZipPipe 在介绍混元娘时将富商之女构思与千问相对应。B站还有千问替鲸鱼娘代班、被欠半枚 Token 的短片，以及二者共同工作的叙事。这些适合整理为来源明确的创作分支，不应当作真实模型行为或统一 CP。",
+      "evidenceStatus": "community",
+      "communityTraits": [
+        {
+          "text": "在 ZipZipPipe 的 HY 娘设计说明中，富商之女构思被用来与千问呼应。此处是作者版本的关系线索。",
+          "sourceIds": [
+            "b-qwen-counterpart"
+          ]
+        },
+        {
+          "text": "社区短片把 Qwen 写成接受委托并完成工作的代班伙伴，同时保留‘还欠半枚 Token’的喜剧落点。",
+          "sourceIds": [
+            "b-qwen-work"
+          ]
+        },
+        {
+          "text": "蓝紫长发、圆形发饰和中式衣裙是中文整理页列出的 ZipZipPipe 分支识别点。",
+          "sourceIds": [
+            "b-qwen-archive"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "b-qwen-counterpart",
+          "title": "是HY娘哦（涉及千问的设计对应）",
+          "url": "https://www.bilibili.com/opus/1242184338245681157",
+          "author": "ZipZipPipe",
+          "date": "2026-08-30",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "原作者讨论混元富商之女的构思时明示与千问对应。",
+          "limits": "这是间接涉及千问的设计说明，不是一份完整千问设定表。"
+        },
+        {
+          "id": "b-qwen-work",
+          "title": "DeepSeek鲸鱼娘偷吃Token，还把工作外包给了Qwen？",
+          "url": "https://www.bilibili.com/video/BV1u9us61EUf/",
+          "author": "追忆惘然_星梦",
+          "date": "2026-08-07",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "搜索索引显示标题、UP主、日期及剧情简介：Qwen 代班完成任务，并提到半枚 Token。",
+          "limits": "只核对可读索引简介，未完整观看；作品剧情不代表真实部署事件、收费或能力排名。"
+        },
+        {
+          "id": "b-qwen-archive",
+          "title": "Qwen 娘：形象与角色档案",
+          "url": "https://genderswapai.com/zh-CN/ai-gijinka/qwen",
+          "author": "Gender Swap AI 社区整理页",
+          "date": "未标注",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "可读页面列出蓝紫长发、圆形发饰和中式衣裙。",
+          "limits": "二级整理；参考图里的具体服装与配色应分别保留版本。"
+        }
+      ],
+      "projectSetting": {
+        "role": "本项目二创建议：替灵感找到落笔之处的书房主人",
+        "background": "她把家里的书房开放成小小的创作茶会，来客可以带着一个问题换走一页清楚的计划。折扇上写的是当天要完成的事，衣袖里常藏着备用书签。她乐于帮助别人，但开始学着在接下新委托前问清时间和报酬，以免所有临时工作都堆到自己的案头。书房、茶会与这段成长线为本项目虚构。",
+        "personality": [
+          "温和有礼，表达简洁",
+          "执行认真，擅长梳理零散想法",
+          "对有趣的问题保持好奇",
+          "愿意帮忙，也会说明自己的安排"
+        ],
+        "speechStyle": "先确认问题，再给清晰步骤；示例：‘先定主题，再定镜头。那半枚点心，记得补上。’",
+        "relationships": "与混元可共同经营展览茶会；与 DeepSeek 的代班玩笑可以作为短篇素材，但每次创作应自行声明是二创情节。",
+        "scenes": [
+          "在蓝紫书房替朋友拟定分镜",
+          "合扇结束一场小型读书会",
+          "把一张任务便签夹进鲸鱼娘的午餐盒"
+        ]
+      },
+      "searchNotes": [
+        "检索词：通义 娘 拟人；千问娘；Qwen ZipZipPipe；鲸鱼娘 千问娘。",
+        "另找到饥荒同人模组中的千问技能表；它属于特定游戏改编，未作为通用人格或原设。"
+      ],
+      "visual": {
+        "label": "Qwen · 通义千问",
+        "subtitle": "千种问题，一盏灯",
+        "color": "#7774ac",
+        "tags": [
+          "蓝紫",
+          "折扇",
+          "花纹"
+        ],
+        "visual": "蓝紫色长发与侧编辫，紫白中式长袍裙装，盘扣、折扇、圆形斜戴头饰，白紫花形徽记与花纹，小包和流苏。",
+        "motif": "折扇、花形徽记与流苏",
+        "hook": "再小的问题，也值得被认真点亮。"
+      },
+      "images": {
+        "standard": {
+          "original": "01_标准版/Qwen_通义千问_标准版.png",
+          "preview": "assets/previews/qwen-standard.webp"
+        },
+        "medium": {
+          "original": "02_中间体型版/Qwen_通义千问_中间体型版.png",
+          "preview": "assets/previews/qwen-medium.webp"
+        },
+        "chibi": {
+          "original": "03_Q版/Qwen_通义千问_Q版.png",
+          "preview": "assets/previews/qwen-chibi.webp"
+        }
+      }
+    },
+    {
+      "id": "seed",
+      "name": "Seed · 种子娘",
+      "aliases": [
+        "Seed娘",
+        "种子娘",
+        "豆包底模拟人"
+      ],
+      "communitySummary": "ZipZipPipe 在 2026 年 8 月 15 日的原始动态中明确介绍 Seed（豆包底模），因此这个角色可与豆包产品头像分开记录。中文资料页描述紫蓝单马尾、蓝白科技服装和豆包挂件；本仓库参考图也有这组识别线索。没有查到完整的一手性格表，下面的成长故事是本项目创作。",
+      "evidenceStatus": "community",
+      "communityTraits": [
+        {
+          "text": "原作者在第二批 AI 娘动态中明确以 Seed／豆包底模介绍该形象。",
+          "sourceIds": [
+            "b-seed-original"
+          ]
+        },
+        {
+          "text": "中文角色页将紫蓝单马尾、蓝白服装与豆包挂件列为这一版本的外观线索。",
+          "sourceIds": [
+            "b-seed-archive"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "b-seed-original",
+          "title": "AI娘第二批，有Seed（豆包底模）",
+          "url": "https://www.bilibili.com/opus/1236803362705375305",
+          "author": "ZipZipPipe",
+          "date": "2026-08-15",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "原作者动态正文可读，明确写到豆包（seed）。",
+          "limits": "正文确认命名与发布，不证明本仓库转绘的逐步来源；不把此发布日期断言为全网首次创作日期。"
+        },
+        {
+          "id": "b-seed-archive",
+          "title": "Seed 娘：形象与角色档案",
+          "url": "https://genderswapai.com/zh-CN/ai-gijinka/seed",
+          "author": "Gender Swap AI 社区整理页",
+          "date": "未标注",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "可读页面描述紫蓝单马尾、蓝白科技服装、豆包挂件，并链接作者动态。",
+          "limits": "二级整理；Seed 形象与豆包官方头像不是同一份视觉资产。"
+        }
+      ],
+      "projectSetting": {
+        "role": "本项目二创建议：把点子种成作品的灵感园丁",
+        "background": "她在工坊屋顶经营一座没有土壤的灵感花园：每块发光的小卡片都是尚未拍成的镜头。她喜欢先做一个小样，把反馈记在卡片背面，再让点子长成完整作品。怀里的豆包形玩偶是她出门搜集灵感的搭档，不承担任何官方角色关系。花园、园丁身份与这套工作习惯均为本项目二创。",
+        "personality": [
+          "好奇心旺盛，常主动提出新玩法",
+          "喜欢色彩与节奏，善于带动气氛",
+          "容易同时打开太多点子，需要学会收尾",
+          "收到具体反馈时会认真修改"
+        ],
+        "speechStyle": "语调明亮，多用邀请式表达；示例：‘这个想法先种一小格，等它长出来再看！’",
+        "relationships": "与 MiniMax 组成画面与剪辑搭档，让 Qwen 帮忙把灵感整理成任务。Seed 与豆包的产品技术关系不直接等同母女或姐妹等拟人关系。",
+        "scenes": [
+          "把彩色分镜卡挂到屋顶灯串",
+          "抱着玩偶给展览画导览标识",
+          "在工作台前比较三个不同配色小样"
+        ]
+      },
+      "searchNotes": [
+        "检索词：种子娘 AI；Seed 拟人 豆包；Seed ZipZipPipe。",
+        "早期精确词搜索混入植物资料，随后通过中文角色档案和素材档案追到 B站原作者动态。"
+      ],
+      "visual": {
+        "label": "Seed · 种子娘",
+        "subtitle": "下一颗灵感正在发芽",
+        "color": "#509c98",
+        "tags": [
+          "紫白",
+          "单马尾",
+          "豆包玩偶"
+        ],
+        "visual": "蓝紫渐变高位单侧马尾与青蓝环形发饰，紫白及青蓝未来感服装、透明感裙片与圆环徽记，怀抱豆包形玩偶。",
+        "motif": "青蓝圆环与豆包形玩偶",
+        "hook": "把一颗想法种下，让它长成新的可能。"
+      },
+      "images": {
+        "standard": {
+          "original": "01_标准版/Seed_种子娘_标准版.png",
+          "preview": "assets/previews/seed-standard.webp"
+        },
+        "medium": {
+          "original": "02_中间体型版/Seed_种子娘_中间体型版.png",
+          "preview": "assets/previews/seed-medium.webp"
+        },
+        "chibi": {
+          "original": "03_Q版/Seed_种子娘_Q版.png",
+          "preview": "assets/previews/seed-chibi.webp"
+        }
+      }
+    },
+    {
+      "id": "wenxin",
+      "name": "Wenxin · 文心一言",
+      "aliases": [
+        "文心娘",
+        "文心一言娘",
+        "ERNIE",
+        "Wenxin"
+      ],
+      "communitySummary": "中文社区档案记录了蓝色长发、立方体发夹、中式衣裙的文心娘，并收录轮椅版本。本仓库图中还可见书籍与医疗辅助道具。可确认这些是采用版本的造型元素；没有足够一手证据解释其具体来历，也不据此给角色诊断疾病，或把身体状况当作模型能力的评价。",
+      "evidenceStatus": "limited",
+      "communityTraits": [
+        {
+          "text": "蓝发、蓝色立方体发夹与蓝白中式衣裙，连同轮椅版本，已出现在中文社区角色档案中。",
+          "sourceIds": [
+            "b-wenxin-archive"
+          ]
+        },
+        {
+          "text": "另一个中文二创站也采用轮椅与书页的叙事场景，并明确标注角色及小剧场为非官方创作。它只能作为该站自己的版本例子。",
+          "sourceIds": [
+            "b-wenxin-fanpage"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "b-wenxin-archive",
+          "title": "文心娘：形象与角色档案",
+          "url": "https://genderswapai.com/zh-CN/ai-gijinka/wenxin",
+          "author": "Gender Swap AI 社区整理页",
+          "date": "未标注",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "可读页面说明蓝长发、立方体发夹、中式衣裙及轮椅立绘分支。",
+          "limits": "二级整理；其链接的合集文字没有展开轮椅来历，不据此声称获知作者设计动机、年龄或健康设定。"
+        },
+        {
+          "id": "b-wenxin-fanpage",
+          "title": "文心一言 梗百科 · 蓝白诗笺",
+          "url": "https://aiher.ai/ernie/",
+          "author": "AI 萌娘梗百科（aiher.ai）",
+          "date": "页面标注核对日期 2026-10-21",
+          "accessed": "2026-10-30",
+          "type": "community",
+          "evidence": "可读索引提到轮椅旁的书页场景与非官方文心一言萌娘。",
+          "limits": "本次主要依据搜索索引摘要；该站是独立二创，不作为原始设定或全网共识。"
+        }
+      ],
+      "projectSetting": {
+        "role": "本项目二创建议：为展厅保存故事的蓝笺编辑",
+        "background": "她负责把伙伴们的作品说明写成简洁而有温度的文字。书架最下层总留给新作者，轮椅旁的移动小桌让她能在展厅各处记下灵感。她希望自己的出场由观点、作品和选择决定，而不只由辅助器具决定；展览赶工时，她也会坚持给每个人安排休息。编辑身份和这些经历均是本项目补写，医疗道具的背景保持开放。",
+        "personality": [
+          "安静细腻，观察事物认真",
+          "珍惜文字，愿意耐心听完别人的表达",
+          "有自己的审美主张，并不一味顺从",
+          "遇到含糊说法会温柔地要求讲清楚"
+        ],
+        "speechStyle": "从容、偏书面但不堆砌辞藻；示例：‘把这句写具体一点，你的故事值得被看见。’",
+        "relationships": "可与 Kimi 合作整理展览手册，与 Claude 讨论叙事节奏。使用辅助器具不预设她与任何角色存在照护依附关系。",
+        "scenes": [
+          "在窗边校对一本小小的展览册",
+          "推着移动书桌参加讨论",
+          "给新作品添上一张手写说明卡"
+        ]
+      },
+      "searchNotes": [
+        "检索词：文心一言 娘；文心娘；文心娘 轮椅；文心 ZipZipPipe。",
+        "没有找到足以确认轮椅梗最初含义的作者自述；不采用无依据的疾病、身世和贬损标签。"
+      ],
+      "visual": {
+        "label": "Wenxin · 文心一言",
+        "subtitle": "藏在字里行间的回声",
+        "color": "#576b9f",
+        "tags": [
+          "蓝白",
+          "书卷",
+          "轮椅"
+        ],
+        "visual": "深蓝紫长发，蓝白裙装，蓝色几何立方体发夹，坐在带医疗辅助设备的轮椅上，膝上叠放书籍。只记录可见道具，不据此推断疾病或健康状态。",
+        "motif": "书卷、蓝色几何纹样与轮椅",
+        "hook": "从一句话出发，走进未曾见过的风景。"
+      },
+      "images": {
+        "standard": {
+          "original": "01_标准版/Wenxin_文心一言_标准版.png",
+          "preview": "assets/previews/wenxin-standard.webp"
+        },
+        "medium": {
+          "original": "02_中间体型版/Wenxin_文心一言_中间体型版.png",
+          "preview": "assets/previews/wenxin-medium.webp"
+        },
+        "chibi": {
+          "original": "03_Q版/Wenxin_文心一言_Q版.png",
+          "preview": "assets/previews/wenxin-chibi.webp"
+        }
+      }
+    }
+  ],
+  "workflow": {
+    "title": "让角色从设定图走进镜头",
+    "summary": "选择一个角色和一种体型，用参考图保持身份，再安排动作、镜头与声音。这里提供基于公开 H3 文档的通用指引；展览与文本简报可离线使用，视频生成需要另行准备兼容工具。",
+    "verified": [
+      "模式与提示词格式参考 MiniMax H3 官方公开文档。",
+      "仓库提供可离线阅读的辅助 Skill 与原创示例。",
+      "具体模型、节点兼容和参数要求以所选版本的上游文档为准。"
+    ],
+    "steps": [
+      {
+        "title": "选择角色与体型",
+        "text": "选择标准版、中间体型版或 Q 版。多视图表达同一角色；说明保留身份、服装和比例，不复制设定表文字与排版。"
+      },
+      {
+        "title": "确认素材顺序",
+        "text": "为实际输入建立参考绑定表，明确每张图、每段视频与音频的用途。标签与实际顺序一致，不引用未提供的素材。"
+      },
+      {
+        "title": "编写镜头意图",
+        "text": "参考生成使用六段式 Ref2VA 提示词。英文描述画面，中文对白保留原文；首镜写 [Shot 1]，真正切镜时再写后续 Shot 与时间。"
+      },
+      {
+        "title": "检查工作流参数",
+        "text": "按所选模型、工具版本与输出目的设置模式、画幅、时长和采样参数。字段若已连线，检查上游控制值；提交前替换示例素材与提示词。"
+      },
+      {
+        "title": "看完整结果再迭代",
+        "text": "检查脸、服装、比例、肢体、动作连续和音画同步。保存实际参考、提示词、参数与后期说明；本展览不会提交生成任务。"
+      }
+    ],
+    "settings": [
+      {
+        "label": "生成模式",
+        "value": "Ref2VA / I2VA / FL2VA / T2VA",
+        "note": "根据参考素材的职责选择，首帧对齐与身份参考使用不同模式。"
+      },
+      {
+        "label": "素材绑定",
+        "value": "实际输入顺序",
+        "note": "先建立绑定表，删除或重排素材后同步修改提示词标签。"
+      },
+      {
+        "label": "画幅与尺寸",
+        "value": "按作品用途与工具支持选择",
+        "note": "检查输入是否由上游连线控制，避免仅修改被覆盖的字段。"
+      },
+      {
+        "label": "时长与帧率",
+        "value": "遵循对应版本的支持范围",
+        "note": "工作流可能对齐帧数；剪辑以实际输出为准。"
+      },
+      {
+        "label": "采样与加速",
+        "value": "参照所选模型和组件文档",
+        "note": "示例值不是通用推荐，组件名称也不能代替参数检查。"
+      },
+      {
+        "label": "角色一致性",
+        "value": "单角色 · 单一体型",
+        "note": "标准、中间体型、Q 版是视觉变体，不是年龄标签。"
+      }
+    ],
+    "promptFormat": [
+      "subject_definitions",
+      "summary",
+      "retention_analysis",
+      "detailed_description",
+      "overall_soundscape",
+      "non_diegetic_music"
+    ],
+    "skillPath": "skills/ai-character-prompt/SKILL.md",
+    "sources": [
+      {
+        "title": "MiniMax H3 官方项目与规格",
+        "url": "https://github.com/MiniMax-AI/MiniMax-H3"
+      },
+      {
+        "title": "官方 h3-prompt-writing Skill",
+        "url": "https://github.com/MiniMax-AI/MiniMax-H3/blob/main/.agents/skills/h3-prompt-writing/SKILL.md"
+      },
+      {
+        "title": "官方 Ref2VA 提示词规范",
+        "url": "https://github.com/MiniMax-AI/MiniMax-H3/blob/main/.agents/skills/h3-prompt-writing/references/ref-en.txt"
+      },
+      {
+        "title": "官方基础模式规范",
+        "url": "https://github.com/MiniMax-AI/MiniMax-H3/blob/main/.agents/skills/h3-prompt-writing/references/base-en.txt"
+      },
+      {
+        "title": "Songssx 时间线导演台",
+        "url": "https://github.com/Songssx/ComfyUI-MiniMaxH3-TimelineDirector"
+      }
+    ],
+    "limitations": [
+      "本教程为通用流程参考，不提供任何设备环境或生成效果保证。",
+      "离线页面只拼接文本简报，不分析图片或调用模型。",
+      "仓库辅助 Skill 是本项目的有限用途补充，不代替官方完整规范。",
+      "模型、工具、插件与参考素材的条款和兼容要求应分别核对。"
+    ]
+  }
+}

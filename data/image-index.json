@@ -1,0 +1,198 @@
+{
+  "chatgpt": {
+    "standard": {
+      "original": "01_标准版/ChatGPT_标准版.png",
+      "preview": "assets/previews/chatgpt-standard.webp"
+    },
+    "medium": {
+      "original": "02_中间体型版/ChatGPT_中间体型版.png",
+      "preview": "assets/previews/chatgpt-medium.webp"
+    },
+    "chibi": {
+      "original": "03_Q版/ChatGPT_Q版.png",
+      "preview": "assets/previews/chatgpt-chibi.webp"
+    }
+  },
+  "claude": {
+    "standard": {
+      "original": "01_标准版/Claude_标准版.png",
+      "preview": "assets/previews/claude-standard.webp"
+    },
+    "medium": {
+      "original": "02_中间体型版/Claude_中间体型版.png",
+      "preview": "assets/previews/claude-medium.webp"
+    },
+    "chibi": {
+      "original": "03_Q版/Claude_Q版.png",
+      "preview": "assets/previews/claude-chibi.webp"
+    }
+  },
+  "deepseek": {
+    "standard": {
+      "original": "01_标准版/DeepSeek_标准版.png",
+      "preview": "assets/previews/deepseek-standard.webp"
+    },
+    "medium": {
+      "original": "02_中间体型版/DeepSeek_中间体型版.png",
+      "preview": "assets/previews/deepseek-medium.webp"
+    },
+    "chibi": {
+      "original": "03_Q版/DeepSeek_Q版.png",
+      "preview": "assets/previews/deepseek-chibi.webp"
+    }
+  },
+  "gemini": {
+    "standard": {
+      "original": "01_标准版/Gemini_标准版.png",
+      "preview": "assets/previews/gemini-standard.webp"
+    },
+    "medium": {
+      "original": "02_中间体型版/Gemini_中间体型版.png",
+      "preview": "assets/previews/gemini-medium.webp"
+    },
+    "chibi": {
+      "original": "03_Q版/Gemini_Q版.png",
+      "preview": "assets/previews/gemini-chibi.webp"
+    }
+  },
+  "glm": {
+    "standard": {
+      "original": "01_标准版/GLM_智谱_标准版.png",
+      "preview": "assets/previews/glm-standard.webp"
+    },
+    "medium": {
+      "original": "02_中间体型版/GLM_智谱_中间体型版.png",
+      "preview": "assets/previews/glm-medium.webp"
+    },
+    "chibi": {
+      "original": "03_Q版/GLM_智谱_Q版.png",
+      "preview": "assets/previews/glm-chibi.webp"
+    }
+  },
+  "grok": {
+    "standard": {
+      "original": "01_标准版/Grok_标准版.png",
+      "preview": "assets/previews/grok-standard.webp"
+    },
+    "medium": {
+      "original": "02_中间体型版/Grok_中间体型版.png",
+      "preview": "assets/previews/grok-medium.webp"
+    },
+    "chibi": {
+      "original": "03_Q版/Grok_Q版.png",
+      "preview": "assets/previews/grok-chibi.webp"
+    }
+  },
+  "hunyuan": {
+    "standard": {
+      "original": "01_标准版/Hunyuan_混元_标准版.png",
+      "preview": "assets/previews/hunyuan-standard.webp"
+    },
+    "medium": {
+      "original": "02_中间体型版/Hunyuan_混元_中间体型版.png",
+      "preview": "assets/previews/hunyuan-medium.webp"
+    },
+    "chibi": {
+      "original": "03_Q版/Hunyuan_混元_Q版.png",
+      "preview": "assets/previews/hunyuan-chibi.webp"
+    }
+  },
+  "kimi": {
+    "standard": {
+      "original": "01_标准版/Kimi_标准版.png",
+      "preview": "assets/previews/kimi-standard.webp"
+    },
+    "medium": {
+      "original": "02_中间体型版/Kimi_中间体型版.png",
+      "preview": "assets/previews/kimi-medium.webp"
+    },
+    "chibi": {
+      "original": "03_Q版/Kimi_Q版.png",
+      "preview": "assets/previews/kimi-chibi.webp"
+    }
+  },
+  "llama": {
+    "standard": {
+      "original": "01_标准版/Llama_标准版.png",
+      "preview": "assets/previews/llama-standard.webp"
+    },
+    "medium": {
+      "original": "02_中间体型版/Llama_中间体型版.png",
+      "preview": "assets/previews/llama-medium.webp"
+    },
+    "chibi": {
+      "original": "03_Q版/Llama_Q版.png",
+      "preview": "assets/previews/llama-chibi.webp"
+    }
+  },
+  "minimax": {
+    "standard": {
+      "original": "01_标准版/MiniMax_标准版.png",
+      "preview": "assets/previews/minimax-standard.webp"
+    },
+    "medium": {
+      "original": "02_中间体型版/MiniMax_中间体型版.png",
+      "preview": "assets/previews/minimax-medium.webp"
+    },
+    "chibi": {
+      "original": "03_Q版/MiniMax_Q版.png",
+      "preview": "assets/previews/minimax-chibi.webp"
+    }
+  },
+  "mistral": {
+    "standard": {
+      "original": "01_标准版/Mistral_标准版.png",
+      "preview": "assets/previews/mistral-standard.webp"
+    },
+    "medium": {
+      "original": "02_中间体型版/Mistral_中间体型版.png",
+      "preview": "assets/previews/mistral-medium.webp"
+    },
+    "chibi": {
+      "original": "03_Q版/Mistral_Q版.png",
+      "preview": "assets/previews/mistral-chibi.webp"
+    }
+  },
+  "qwen": {
+    "standard": {
+      "original": "01_标准版/Qwen_通义千问_标准版.png",
+      "preview": "assets/previews/qwen-standard.webp"
+    },
+    "medium": {
+      "original": "02_中间体型版/Qwen_通义千问_中间体型版.png",
+      "preview": "assets/previews/qwen-medium.webp"
+    },
+    "chibi": {
+      "original": "03_Q版/Qwen_通义千问_Q版.png",
+      "preview": "assets/previews/qwen-chibi.webp"
+    }
+  },
+  "seed": {
+    "standard": {
+      "original": "01_标准版/Seed_种子娘_标准版.png",
+      "preview": "assets/previews/seed-standard.webp"
+    },
+    "medium": {
+      "original": "02_中间体型版/Seed_种子娘_中间体型版.png",
+      "preview": "assets/previews/seed-medium.webp"
+    },
+    "chibi": {
+      "original": "03_Q版/Seed_种子娘_Q版.png",
+      "preview": "assets/previews/seed-chibi.webp"
+    }
+  },
+  "wenxin": {
+    "standard": {
+      "original": "01_标准版/Wenxin_文心一言_标准版.png",
+      "preview": "assets/previews/wenxin-standard.webp"
+    },
+    "medium": {
+      "original": "02_中间体型版/Wenxin_文心一言_中间体型版.png",
+      "preview": "assets/previews/wenxin-medium.webp"
+    },
+    "chibi": {
+      "original": "03_Q版/Wenxin_文心一言_Q版.png",
+      "preview": "assets/previews/wenxin-chibi.webp"
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "title": "让角色从设定图走进镜头",
+  "summary": "选择一个角色和一种体型，用参考图保持身份，再安排动作、镜头与声音。这里提供基于公开 H3 文档的通用指引；展览与文本简报可离线使用，视频生成需要另行准备兼容工具。",
+  "verified": [
+    "模式与提示词格式参考 MiniMax H3 官方公开文档。",
+    "仓库提供可离线阅读的辅助 Skill 与原创示例。",
+    "具体模型、节点兼容和参数要求以所选版本的上游文档为准。"
+  ],
+  "steps": [
+    {
+      "title": "选择角色与体型",
+      "text": "选择标准版、中间体型版或 Q 版。多视图表达同一角色；说明保留身份、服装和比例，不复制设定表文字与排版。"
+    },
+    {
+      "title": "确认素材顺序",
+      "text": "为实际输入建立参考绑定表，明确每张图、每段视频与音频的用途。标签与实际顺序一致，不引用未提供的素材。"
+    },
+    {
+      "title": "编写镜头意图",
+      "text": "参考生成使用六段式 Ref2VA 提示词。英文描述画面，中文对白保留原文；首镜写 [Shot 1]，真正切镜时再写后续 Shot 与时间。"
+    },
+    {
+      "title": "检查工作流参数",
+      "text": "按所选模型、工具版本与输出目的设置模式、画幅、时长和采样参数。字段若已连线，检查上游控制值；提交前替换示例素材与提示词。"
+    },
+    {
+      "title": "看完整结果再迭代",
+      "text": "检查脸、服装、比例、肢体、动作连续和音画同步。保存实际参考、提示词、参数与后期说明；本展览不会提交生成任务。"
+    }
+  ],
+  "settings": [
+    {
+      "label": "生成模式",
+      "value": "Ref2VA / I2VA / FL2VA / T2VA",
+      "note": "根据参考素材的职责选择，首帧对齐与身份参考使用不同模式。"
+    },
+    {
+      "label": "素材绑定",
+      "value": "实际输入顺序",
+      "note": "先建立绑定表，删除或重排素材后同步修改提示词标签。"
+    },
+    {
+      "label": "画幅与尺寸",
+      "value": "按作品用途与工具支持选择",
+      "note": "检查输入是否由上游连线控制，避免仅修改被覆盖的字段。"
+    },
+    {
+      "label": "时长与帧率",
+      "value": "遵循对应版本的支持范围",
+      "note": "工作流可能对齐帧数；剪辑以实际输出为准。"
+    },
+    {
+      "label": "采样与加速",
+      "value": "参照所选模型和组件文档",
+      "note": "示例值不是通用推荐，组件名称也不能代替参数检查。"
+    },
+    {
+      "label": "角色一致性",
+      "value": "单角色 · 单一体型",
+      "note": "标准、中间体型、Q 版是视觉变体，不是年龄标签。"
+    }
+  ],
+  "promptFormat": [
+    "subject_definitions",
+    "summary",
+    "retention_analysis",
+    "detailed_description",
+    "overall_soundscape",
+    "non_diegetic_music"
+  ],
+  "skillPath": "skills/ai-character-prompt/SKILL.md",
+  "sources": [
+    {
+      "title": "MiniMax H3 官方项目与规格",
+      "url": "https://github.com/MiniMax-AI/MiniMax-H3"
+    },
+    {
+      "title": "官方 h3-prompt-writing Skill",
+      "url": "https://github.com/MiniMax-AI/MiniMax-H3/blob/main/.agents/skills/h3-prompt-writing/SKILL.md"
+    },
+    {
+      "title": "官方 Ref2VA 提示词规范",
+      "url": "https://github.com/MiniMax-AI/MiniMax-H3/blob/main/.agents/skills/h3-prompt-writing/references/ref-en.txt"
+    },
+    {
+      "title": "官方基础模式规范",
+      "url": "https://github.com/MiniMax-AI/MiniMax-H3/blob/main/.agents/skills/h3-prompt-writing/references/base-en.txt"
+    },
+    {
+      "title": "Songssx 时间线导演台",
+      "url": "https://github.com/Songssx/ComfyUI-MiniMaxH3-TimelineDirector"
+    }
+  ],
+  "limitations": [
+    "本教程为通用流程参考，不提供任何设备环境或生成效果保证。",
+    "离线页面只拼接文本简报，不分析图片或调用模型。",
+    "仓库辅助 Skill 是本项目的有限用途补充，不代替官方完整规范。",
+    "模型、工具、插件与参考素材的条款和兼容要求应分别核对。"
+  ]
+}

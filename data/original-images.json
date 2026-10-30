@@ -1,0 +1,384 @@
+{
+  "recorded": "2026-10-30",
+  "purpose": "Distribution image integrity baseline. Embedded provenance metadata removed without changing decoded pixels.",
+  "files": [
+    {
+      "path": "01_标准版/ChatGPT_标准版.png",
+      "bytes": 2526962,
+      "sha256": "6d207d9a2b0e0fb6f015f7c605473a6fedb92f6e53febdfb72340685b14f7b90",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "01_标准版/Claude_标准版.png",
+      "bytes": 2727185,
+      "sha256": "28cba304240b3f1722a96192eec73368e926bb080aaa35a2a221a3ee7e2f2707",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "01_标准版/DeepSeek_标准版.png",
+      "bytes": 3099582,
+      "sha256": "b1e0904946fdd1a499bddceb7dc17f44cd5c8dc14956da60c9614c7200ce0746",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "01_标准版/Gemini_标准版.png",
+      "bytes": 2540753,
+      "sha256": "9353aefce7bac395c0b13d7f940450e718d98e7c8aea8361a17b4e5a4c3f6b07",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "01_标准版/GLM_智谱_标准版.png",
+      "bytes": 2531754,
+      "sha256": "7356377589cb6d553f412f2637654b9db3d7839dd6d823d95625eca8a213c111",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "01_标准版/Grok_标准版.png",
+      "bytes": 2593024,
+      "sha256": "f98a154cc08c50720a5a3975608cce18437fb9c04d04b69e50d6d7aaaafb68da",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "01_标准版/Hunyuan_混元_标准版.png",
+      "bytes": 2355240,
+      "sha256": "2467091382dd61ca7b09bba768da3f8076cfafe46b0db7753eb3505457943495",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "01_标准版/Kimi_标准版.png",
+      "bytes": 2670425,
+      "sha256": "56eb5239f5a78ca2fb00ca9836456d773c37228b8c970860af43188e14f99465",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "01_标准版/Llama_标准版.png",
+      "bytes": 2238482,
+      "sha256": "2e68189ba4c1e32ab91eab710a508977ce14755440107a91bb109558feeabf55",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "01_标准版/MiniMax_标准版.png",
+      "bytes": 2318905,
+      "sha256": "e15c21056393127332d997cc13c66a5c835c3380faf80c0799ced61f5865aaaa",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "01_标准版/Mistral_标准版.png",
+      "bytes": 2566505,
+      "sha256": "67ebd4daf13726b39dd4c550200152491e8c0059323a326a5428f54133783847",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "01_标准版/Qwen_通义千问_标准版.png",
+      "bytes": 2689189,
+      "sha256": "5d813514db37530c1dee656ed92b095da39d7a79aef85ea5db346d4e834b7c73",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "01_标准版/Seed_种子娘_标准版.png",
+      "bytes": 2258055,
+      "sha256": "e0313fae3183464f05437ff74a36ed32a5ee7dc8dd0983314c092869ae519be0",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "01_标准版/Wenxin_文心一言_标准版.png",
+      "bytes": 2475112,
+      "sha256": "0092e523c2cc6a8bd10b7a71f9e50240894be189a04a4a766cbfdd4af22ad5aa",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "02_中间体型版/ChatGPT_中间体型版.png",
+      "bytes": 2481963,
+      "sha256": "35411b665797fd1f9b2f324c10a56379d2022ba6d5559f54104e65f0bd7a5d73",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "02_中间体型版/Claude_中间体型版.png",
+      "bytes": 2626973,
+      "sha256": "38f9c32a5ec70c5ea197051438ec06cde4193325493f264209b78bb1f0349f93",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "02_中间体型版/DeepSeek_中间体型版.png",
+      "bytes": 2023628,
+      "sha256": "4c6a8ffc8fcf5d186842eda8a235d430d3cab36c8c848f244dba63802691cf42",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "02_中间体型版/Gemini_中间体型版.png",
+      "bytes": 2458200,
+      "sha256": "8ebd0ce829a13b7fbb760ac9fc7d79dd6b1de3073ac9295be748f765ca3af5b1",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "02_中间体型版/GLM_智谱_中间体型版.png",
+      "bytes": 2551913,
+      "sha256": "02d18a38a2c92b8128450f38d80ea94643963d0ace99ef40bebbc5df0acbad01",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "02_中间体型版/Grok_中间体型版.png",
+      "bytes": 2554729,
+      "sha256": "8907e75651ece76c6e19ad38be462ceb4325c7720fe99943608f1d98b2c03583",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "02_中间体型版/Hunyuan_混元_中间体型版.png",
+      "bytes": 2283453,
+      "sha256": "ade97aded5baad4d3be62dc0a485048e07277ae2c53a7cc0c614562f60b537a6",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "02_中间体型版/Kimi_中间体型版.png",
+      "bytes": 2492122,
+      "sha256": "0057d7e23c0b0170e79254648a74c26520dcbfbe4dfccf57a9d926c298e5df7f",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "02_中间体型版/Llama_中间体型版.png",
+      "bytes": 2291410,
+      "sha256": "c9855ccfb623a3a3cccf620b404af9da8bfc1acc221cc503fb2d4f6d7d5de9ee",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "02_中间体型版/MiniMax_中间体型版.png",
+      "bytes": 2236829,
+      "sha256": "455cc4144b6cd095e7d539d1d478d0b14dcfea6f3e21dd66f1290d3571783417",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "02_中间体型版/Mistral_中间体型版.png",
+      "bytes": 2523177,
+      "sha256": "b3977f38a21cbdc38b868bb603cd6bf3e1a9fd1332723fc3dbc5c731f02b41be",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "02_中间体型版/Qwen_通义千问_中间体型版.png",
+      "bytes": 2497346,
+      "sha256": "e90dadff5cb692b79217c7382d00316cb0e3cdc545320c5bf34d2462e43085be",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "02_中间体型版/Seed_种子娘_中间体型版.png",
+      "bytes": 2242281,
+      "sha256": "2c404b1fd9e9ac161998bbc89a2b1cd98377c776ed6b80e604e3cf0a19c1d1ae",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "02_中间体型版/Wenxin_文心一言_中间体型版.png",
+      "bytes": 2635985,
+      "sha256": "990e82fbb04671c3f5b85b30e5b588e5760281e0811f5734ff35b5d22ede8016",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "03_Q版/ChatGPT_Q版.png",
+      "bytes": 2689428,
+      "sha256": "202ab2f729ffbfffe539c563462a998a8b41dcaa0aa96cf94bf8682b19bcfb71",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "03_Q版/Claude_Q版.png",
+      "bytes": 2890344,
+      "sha256": "38ddae1b9d9a7dbf6133ad3f0114f07d9bae172b923b40fcf8e587b09feb5c3c",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "03_Q版/DeepSeek_Q版.png",
+      "bytes": 3014214,
+      "sha256": "0cc90c05aebcd6dd4e7cd9a94dbc1ffc452e18500f383ce5974b7c47c94fae77",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "03_Q版/Gemini_Q版.png",
+      "bytes": 2528935,
+      "sha256": "ed3cbdd61e32034a4182faf8654fb9993ee999925ac69d0dfa25430c00a03b25",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "03_Q版/GLM_智谱_Q版.png",
+      "bytes": 2742486,
+      "sha256": "a65245fe9c39e2bc860487792c35cdd490de1bab2a282bb7452b61a4df26477a",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "03_Q版/Grok_Q版.png",
+      "bytes": 2779632,
+      "sha256": "01c0404ee359e1b1b609684420ca46161af5fd215983631f77a758280bcea7a6",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "03_Q版/Hunyuan_混元_Q版.png",
+      "bytes": 2552740,
+      "sha256": "8367a8f22bceb5253786abd644b8ae0860f40d4d4dd3c52f053e1e5588cc8bcb",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "03_Q版/Kimi_Q版.png",
+      "bytes": 2836721,
+      "sha256": "8fed4b4654378b5c7e5b734ce17cb80ffe2c0fd644aed205b2ca1e2b483065c7",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "03_Q版/Llama_Q版.png",
+      "bytes": 2559228,
+      "sha256": "1d4eb1c1a0206adbe12d75e9ac24e8d29f36b97deae835fff818217ca2b83cf9",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "03_Q版/MiniMax_Q版.png",
+      "bytes": 2472159,
+      "sha256": "5c9e526cf4b399cd3fa6cab6942f1702deba732018187b726360adef5a3cb8f7",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "03_Q版/Mistral_Q版.png",
+      "bytes": 2719093,
+      "sha256": "983199d26b981ff776a20c326c66f1c4d7c48913d0e81acc2bb40b32f0ad11d2",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "03_Q版/Qwen_通义千问_Q版.png",
+      "bytes": 2741945,
+      "sha256": "5a1de90f87d0623feae2ae123196cf6e85126f8ad64f8fb2065e0467f258bd07",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "03_Q版/Seed_种子娘_Q版.png",
+      "bytes": 2573671,
+      "sha256": "bb7a3af0f94e545fdf6cc9d9dbcd91c731a4901626234ce7e00af02181dc8aa3",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "03_Q版/Wenxin_文心一言_Q版.png",
+      "bytes": 2632075,
+      "sha256": "08a86e03331c453499d864a5d7303b7e70e695db69aee74e1461c1eaf14c7e8f",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    }
+  ]
+}
