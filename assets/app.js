@@ -16,6 +16,10 @@
   let tab = 'profile';
   let lastFocus;
   let toastTimer;
+  let briefMeta;
+  let briefEdited = false;
+  const promptInputs = ['prompt-character','prompt-variant','prompt-scene','prompt-action','prompt-camera'];
+  const promptOptions = () => JSON.stringify(promptInputs.map(id => $(id).value));
   const externalURL = (url) => /^https:\/\//i.test(url) ? url : '#';
   const list = (items) => `<ul>${items.map(x => `<li>${esc(x)}</li>`).join('')}</ul>`;
   const prose = (value) => Array.isArray(value) ? value.join('；') : value;
@@ -35,7 +39,14 @@
     $('original-link').href = image.original;
     $('download-image').href = image.original;
     $('download-image').download = image.original.split('/').pop();
-    $('detail-variants').innerHTML = Object.entries(labels).map(([key,label])=>`<button data-variant="${key}" class="${key===detailVariant?'active':''}" aria-pressed="${key===detailVariant}">${label}</button>`).join('');
+    if (!$('detail-variants').childElementCount) {
+      $('detail-variants').innerHTML = Object.entries(labels).map(([key,label])=>`<button data-variant="${key}">${label}</button>`).join('');
+    }
+    $('detail-variants').querySelectorAll('button').forEach(button => {
+      const active = button.dataset.variant === detailVariant;
+      button.classList.toggle('active',active);
+      button.setAttribute('aria-pressed',String(active));
+    });
   }
 
   function renderDetailContent() {
@@ -76,7 +87,16 @@
   function generatePrompt() {
     const c=data.characters.find(c=>c.id===$('prompt-character').value);
     const type=$('prompt-variant').value;
+    briefMeta = {character:c.id, variant:type, label:c.visual.label, options:promptOptions()};
+    briefEdited = false;
     $('prompt-text').value = `【AI MUSE · 角色创作简报】\n角色：${c.visual.label}\n体型：${labels[type]}（造型比例，不定义年龄）\n参考图：${c.images[type].original}\n\n【角色一致性】\n${c.visual.visual}\n以上为标准版视觉观察；细节以所选体型的实际参考图为准。保留发色、服装配色与标志饰品，不混用其他体型。\n\n【镜头意图】\n场景：${$('prompt-scene').value.trim()||'由创作者补充'}\n动作与情绪：${$('prompt-action').value.trim()||'由创作者补充'}\n镜头：${$('prompt-camera').value}\n气质参考（本项目二创设定）：${c.projectSetting.personality.join('、')}\n\n【给 H3 提示词 Skill】\n多视图设定板的各视角属于同一角色，不复制拼版与文字。若需要裁出单视角，另存副本并保留关键配饰与体型，不覆盖原图。先确认实际参考图、视频、音频的上传顺序及编号，不从文件名猜测。\n请按 Ref2VA 的 subject_definitions、summary、retention_analysis、detailed_description、overall_soundscape、non_diegetic_music 六段式标记结构转写为提示词；具体格式见本地 Skill 指南。\n叙述使用英文；若需要中文台词，保留台词原文并按官方标签规则标注说话者。当前未指定台词，不擅自添加台词。音效、配乐、时长由创作者确认。\n\n【创作边界】\n不要把角色称号、性格与关系写成官方事实。生成前复核素材授权和上游要求。\n本便笺仅提供文本，不上传参考图、不调用模型、不自动执行生成。`;
+  }
+
+  function renderBriefStatus() {
+    const stale = briefMeta.options !== promptOptions();
+    const text = briefEdited ? '当前文本已手动编辑，下载使用通用文件名。' : `当前简报：${briefMeta.label} · ${labels[briefMeta.variant]}。`;
+    $('prompt-status').textContent = text + (stale ? ' 选项已更改，点击“生成创作简报”可更新正文。' : '');
+    $('prompt-status').classList.toggle('pending',stale);
   }
 
   function renderWorkflow() {
@@ -98,12 +118,17 @@
   $('detail-variants').addEventListener('click',e=>{const b=e.target.closest('[data-variant]');if(!b)return;detailVariant=b.dataset.variant;renderDetailImage();renderDetailContent();});
   $('detail-tabs').addEventListener('click',e=>{const b=e.target.closest('[data-tab]');if(!b)return;tab=b.dataset.tab;renderDetailContent();});
   $('detail-tabs').addEventListener('keydown',e=>{const buttons=[...$('detail-tabs').querySelectorAll('button')];let i=buttons.indexOf(document.activeElement);if(i<0)return;if(e.key==='ArrowRight')i=(i+1)%buttons.length;else if(e.key==='ArrowLeft')i=(i+buttons.length-1)%buttons.length;else if(e.key==='Home')i=0;else if(e.key==='End')i=buttons.length-1;else return;e.preventDefault();tab=buttons[i].dataset.tab;renderDetailContent();buttons[i].focus();});
-  $('use-character').addEventListener('click',()=>{$('prompt-character').value=selected.id;$('prompt-variant').value=detailVariant;generatePrompt();lastFocus=$('prompt-scene');$('character-dialog').close();$('studio').scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});$('prompt-scene').focus({preventScroll:true});});
+  $('use-character').addEventListener('click',()=>{$('prompt-character').value=selected.id;$('prompt-variant').value=detailVariant;generatePrompt();renderBriefStatus();lastFocus=$('prompt-scene');$('character-dialog').close();$('studio').scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});$('prompt-scene').focus({preventScroll:true});});
   $('prompt-character').innerHTML=data.characters.map(c=>`<option value="${esc(c.id)}">${esc(c.visual.label)}</option>`).join('');
   $('prompt-character').value='deepseek';
-  $('generate-prompt').addEventListener('click',()=>{generatePrompt();toast('创作简报已更新');});
+  $('generate-prompt').addEventListener('click',()=>{generatePrompt();renderBriefStatus();toast('创作简报已更新');});
+  promptInputs.forEach(id => {
+    $(id).addEventListener('input',renderBriefStatus);
+    $(id).addEventListener('change',renderBriefStatus);
+  });
+  $('prompt-text').addEventListener('input',()=>{briefEdited=true;renderBriefStatus();});
   $('copy-prompt').addEventListener('click',async()=>{try{if(navigator.clipboard && window.isSecureContext){await navigator.clipboard.writeText($('prompt-text').value);}else{$('prompt-text').focus();$('prompt-text').select();if(!document.execCommand('copy'))throw new Error('copy');}toast('已复制创作简报');}catch{$('prompt-text').focus();$('prompt-text').select();toast('请按 Ctrl+C 或使用下载按钮');}});
-  $('download-prompt').addEventListener('click',()=>{const blob=new Blob(['\ufeff'+$('prompt-text').value],{type:'text/plain;charset=utf-8'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=`AI-MUSE-${$('prompt-character').value}-${$('prompt-variant').value}-brief.txt`;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);toast('已准备下载创作简报');});
+  $('download-prompt').addEventListener('click',()=>{const blob=new Blob(['\ufeff'+$('prompt-text').value],{type:'text/plain;charset=utf-8'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=briefEdited?'AI-MUSE-edited-brief.txt':`AI-MUSE-${briefMeta.character}-${briefMeta.variant}-brief.txt`;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);toast('已准备下载创作简报');});
   document.addEventListener('keydown',e=>{if(e.key==='/' && !['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName) && !$('character-dialog').open){e.preventDefault();$('search').focus();}});
-  renderGrid();renderWorkflow();generatePrompt();
+  renderGrid();renderWorkflow();generatePrompt();renderBriefStatus();
 })();

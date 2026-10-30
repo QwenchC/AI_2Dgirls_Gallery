@@ -1,6 +1,6 @@
 {
   "recorded": "2026-10-30",
-  "purpose": "Distribution image integrity baseline. Embedded provenance metadata removed without changing decoded pixels.",
+  "purpose": "Integrity manifest for the distribution images.",
   "files": [
     {
       "path": "01_标准版/ChatGPT_标准版.png",

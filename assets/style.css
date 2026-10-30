@@ -5,3 +5,5 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}.character-card:hover{transform:none}.hero-image:hover img,.character-card:hover img{transform:none}}
 
 .workflow-details table{table-layout:fixed}.workflow-details td,.workflow-details th{overflow-wrap:anywhere}.workflow-details th{width:22%}.workflow-details td:nth-child(2){width:28%}
+
+.prompt-status{font-size:11px;line-height:1.8;color:#5b6d51;margin:12px 0 0}.prompt-status.pending{color:#855b30}
